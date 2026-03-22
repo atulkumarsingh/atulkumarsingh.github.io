@@ -12,7 +12,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
     <!-- Background Glow -->
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h1 class="text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight leading-tight">
-            Turn Your Leads Into Customers — <span class="text-gh-yellow">Automatically</span> with Zoho CRM
+            Turn Your Leads Into Customers 🤝 — <span class="text-gh-yellow">Automatically</span> with Zoho CRM
         </h1>
         
         <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">

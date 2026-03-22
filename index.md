@@ -15,7 +15,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
         <div class="bg-[#0d1117] border border-gh-border-dark rounded-2xl p-8 md:p-12 shadow-sm reveal">
             <h2 class="text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight flex items-center gap-3">
                 <span class="material-symbols-outlined text-gh-accent text-3xl">badge</span>
-                About Me
+                About Me 👋
             </h2>
             <div class="space-y-6 text-[16px] md:text-[18px] text-gh-muted-dark leading-relaxed font-medium">
                 <p>I’m a performance marketer focused on building complete revenue systems, not just running ads.</p>
@@ -51,7 +51,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <section class="py-10 md:py-14 border-b border-gh-border-dark bg-[#0d1117]">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-16 reveal">
-            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-4 tracking-tight">What I Do</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-4 tracking-tight">What I Do 💡</h2>
             <p class="text-[16px] text-gh-muted-dark max-w-xl mx-auto">Core expertise covering the entire conversion ecosystem.</p>
         </div>
 
@@ -109,7 +109,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <section class="py-10 md:py-14 border-b border-gh-border-dark bg-[#010409]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-16 reveal">
-            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight">How I Build Growth Systems</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight">How I Build Growth Systems 🏗️</h2>
             <div class="inline-flex flex-wrap justify-center items-center gap-2 md:gap-4 px-4 md:px-4 py-2 text-[14px] rounded-xl bg-[#0d1117] border border-gh-border-dark font-mono text-sm md:text-[15px] font-bold text-gh-fg-dark mb-8">
                 <span>Traffic</span> <span class="text-gh-accent">→</span>
                 <span>Tracking</span> <span class="text-gh-accent">→</span>
@@ -190,7 +190,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <section class="py-10 md:py-14 border-b border-gh-border-dark bg-[#0d1117]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-16 reveal">
-            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight">Results That Matter</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight">Results That Matter 📈</h2>
             <p class="text-[16px] md:text-lg text-gh-accent max-w-xl mx-auto font-semibold">Real performance, not vanity metrics.</p>
         </div>
 
@@ -228,7 +228,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <section class="py-8 md:py-10 border-b border-gh-border-dark bg-[#161b22]">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="flex flex-col md:flex-row items-center justify-between gap-8 reveal">
-            <h2 class="text-2xl font-bold text-gh-fg-dark shrink-0">Tools I Work With</h2>
+            <h2 class="text-2xl font-bold text-gh-fg-dark shrink-0">Tools I Work With 🛠️</h2>
             
             <div class="flex flex-wrap justify-center md:justify-end gap-x-8 gap-y-4 text-[16px] font-bold text-gh-muted-dark">
                 <span class="hover:text-gh-fg-dark transition-colors flex items-center gap-2"><i class="fa-brands fa-google text-lg"></i> Google Ads</span>
@@ -248,7 +248,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <section id="featured-work" class="py-10 md:py-14 border-b border-gh-border-dark bg-[#0d1117]">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-16 reveal">
-            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight">Selected Work</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight">The Revenue Engine ⚙️</h2>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8 mb-12">

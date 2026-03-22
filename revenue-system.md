@@ -12,7 +12,7 @@ keywords: marketing and sales automation, scalable growth systems, ad tracking a
     <!-- Background Glow -->
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h1 class="text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight leading-tight">
-            Stop Buying Random Tactics. <span class="text-gh-yellow">Build a Complete</span> Revenue System.
+            Stop Buying Random Tactics 👋 Build a <span class="text-gh-yellow">Complete</span> Revenue System 🏗️
         </h1>
         
         <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
