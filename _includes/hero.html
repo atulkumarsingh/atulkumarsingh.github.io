@@ -1,80 +1,133 @@
-<section
-    class="relative pt-10 pb-24 md:pt-16 md:pb-32 overflow-hidden bg-gh-canvas-dark border-b border-gh-border-dark">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-
-            <!-- Left: Hero Text -->
-            <div class="flex flex-col items-center md:items-start text-center md:text-left reveal">
-                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gh-border-dark bg-gh-subtle-dark mb-6">
-                    <span class="w-2 h-2 rounded-full bg-gh-green animate-pulse"></span>
-                    <span class="text-[12px] font-bold text-gh-fg-dark uppercase tracking-wider">Performance Marketer | Analytics Specialist | CRM Automation Expert</span>
+<section class="relative pt-12 pb-24 md:pt-20 md:pb-32 overflow-hidden bg-gh-inset-dark border-b border-gh-border-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="grid lg:grid-cols-[1fr_1.6fr] gap-12 lg:gap-16 items-start reveal">
+            
+            <!-- ════════════ Left: Profile Information ════════════ -->
+            <div class="flex flex-col">
+                <!-- Avatar -->
+                <div class="relative w-36 h-36 md:w-44 md:h-44 mb-6">
+                    <div class="absolute inset-0 rounded-full bg-gradient-to-br from-[#2f81f7] to-[#a371f7] opacity-60 blur-xl"></div>
+                    <img src="{{ '/assets/images/profile.png' | relative_url }}" class="relative w-full h-full rounded-full border border-[#30363d] object-cover z-10" alt="Atul Kumar">
+                    <!-- Online Status Dot -->
+                    <div class="absolute bottom-2 right-2 md:bottom-3 md:right-3 w-4 h-4 rounded-full bg-[#238636] border-2 border-[#010409] z-20 shadow-lg"></div>
                 </div>
 
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gh-fg-dark mb-6 tracking-tight leading-tight">
-                    I Build Scalable <span class="text-gh-accent">Revenue Systems</span> Using Ads, Data & Automation
-                </h1>
-                
-                <p class="text-[17px] md:text-[19px] text-gh-muted-dark leading-relaxed mb-8 max-w-xl font-medium">
-                    Google Ads, Meta Ads, GA4, GTM & Zoho CRM — connected to generate leads, track performance, and convert customers.
+                <!-- Name & Title -->
+                <h1 class="text-4xl md:text-5xl lg:text-5xl font-extrabold text-white mb-2 tracking-tight">Atul Kumar</h1>
+                <h2 class="text-[#2f81f7] text-lg md:text-xl font-bold mb-6">Performance Marketer | Analytics Specialist | CRM Automation Expert</h2>
+
+                <!-- Description -->
+                <p class="text-[#8b949e] text-[15px] md:text-[16px] leading-relaxed mb-6 font-medium">
+                    Building high-performance revenue engines using <strong>Precision Ads, CRM Automation,</strong> and <strong>Advanced Analytics.</strong><br>
+                    No fluff. Just systems that drive real growth.
                 </p>
 
-                <!-- CTAs -->
-                <div class="w-full flex flex-col sm:flex-row gap-3 md:gap-4 mb-6">
-                    <a href="javascript:void(0)"
-                        class="open-calendar flex-1 inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gh-accent hover:bg-gh-accent/90 text-white text-[15px] font-bold rounded-xl transition-all shadow-lg shadow-gh-accent/20">
-                        <span class="material-symbols-outlined text-[18px]">calendar_today</span>
-                        <span>Get Free Growth Audit</span>
+                <!-- List Info -->
+                <div class="flex flex-col gap-3 text-[#8b949e] text-[14px] font-medium mb-8">
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-[18px]">settings</span>
+                        <span>Performance Marketing • Automation • Analytics</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-[18px]">location_on</span>
+                        <span>India</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-[18px]">link</span>
+                        <a href="mailto:hello@kumaratul.com" class="text-[#2f81f7] hover:underline transition-colors">hello@kumaratul.com</a>
+                    </div>
+                </div>
+
+                <!-- Socials -->
+                <div class="flex items-center gap-5 mb-8">
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-linkedin text-xl"></i></a>
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-x-twitter text-xl"></i></a>
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-github text-xl"></i></a>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#2f81f7] hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-[#2f81f7]/20">
+                        <span class="material-symbols-outlined text-[18px]">calendar_today</span> Schedule a Call
                     </a>
-                    <a href="#featured-work"
-                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gh-subtle-dark hover:bg-gh-border-dark text-gh-fg-dark text-[15px] font-bold rounded-xl border border-gh-border-dark transition-all">
-                        <span class="material-symbols-outlined text-[18px]">visibility</span>
-                        <span>View My Work</span>
-                    </a>
-                    <a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank"
-                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gh-canvas-dark hover:bg-gh-inset-dark text-gh-fg-dark text-[15px] font-bold rounded-xl border border-gh-border-dark transition-all">
-                        <span class="material-symbols-outlined text-[18px]">download</span>
-                        <span>Download Resume</span>
+                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#21262d] hover:bg-[#30363d] text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 border border-[#30363d] transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">category</span> View Services
                     </a>
                 </div>
-                
-                <p class="text-[14px] text-gh-muted-dark font-medium italic badge text-center">
-                    "No fluff. Just systems that drive real growth."
-                </p>
             </div>
 
-            <!-- Right: Highlights / Image -->
-            <div class="reveal-delay-1 relative">
-                <div class="absolute -inset-4 bg-gradient-to-tr from-gh-accent/20 to-gh-purple/20 rounded-[2rem] blur-2xl opacity-50"></div>
-                <div class="glass border border-gh-border-dark rounded-2xl p-8 relative shadow-2xl overflow-hidden group">
-                    <div class="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-gh-accent via-gh-purple to-gh-accent bg-[length:200%_auto] animate-[gradient-flow_4s_linear_infinite]"></div>
+            <!-- ════════════ Right: Terminal System Card ════════════ -->
+            <div class="bg-[#0D1117] border border-[#30363d] rounded-2xl flex flex-col shadow-2xl relative overflow-hidden h-full">
+                <!-- Top bar -->
+                <div class="px-6 py-3 border-b border-[#30363d] bg-[#161B22] flex items-center">
+                    <span class="material-symbols-outlined text-[#8B949E] text-[16px] mr-2">terminal</span>
+                    <span class="text-[#8B949E] text-[12px] font-bold tracking-wider uppercase">Ready to scale your revenue 📈</span>
+                </div>
+                
+                <!-- Content body -->
+                <div class="p-6 md:p-10 flex-grow flex flex-col">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 tracking-tight">I Build Scalable Revenue Systems Using Ads, Data & Automation 👋</h2>
                     
-                    <div class="flex items-center gap-4 mb-8">
-                        <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-gh-border-dark object-cover shrink-0">
-                            <img alt="Atul Kumar" class="w-full h-full object-cover" src="{{ '/assets/images/profile.png' | relative_url }}" />
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-bold text-gh-fg-dark">Atul Kumar</h3>
-                            <p class="text-[14px] text-gh-accent font-medium">@Atulscript</p>
-                        </div>
+                    <p class="text-[#8B949E] text-[15px] leading-relaxed mb-8">
+                        Most businesses run ads. <strong>Few track properly.</strong> Even fewer automate correctly. I combine Google & Meta advertising, GA4 + GTM tracking infrastructure, and Zoho CRM automation to create <strong>structured, scalable revenue systems.</strong> Google Ads, Meta Ads, GA4, GTM & Zoho CRM — connected to generate leads, track performance, and convert customers.
+                    </p>
+
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-3 mb-10">
+                        <span class="px-4 py-1.5 rounded-full border border-[#2f81f7]/30 bg-[#2f81f7]/10 text-[#2f81f7] text-[12px] font-bold tracking-wide">Google Ads</span>
+                        <span class="px-4 py-1.5 rounded-full border border-[#a371f7]/30 bg-[#a371f7]/10 text-[#a371f7] text-[12px] font-bold tracking-wide">Meta Ads</span>
+                        <span class="px-4 py-1.5 rounded-full border border-[#238636]/30 bg-[#238636]/10 text-[#238636] text-[12px] font-bold tracking-wide">Zoho CRM</span>
+                        <span class="px-4 py-1.5 rounded-full border border-[#d29922]/30 bg-[#d29922]/10 text-[#d29922] text-[12px] font-bold tracking-wide">Analytics</span>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-gh-inset-dark/50 border border-gh-border-dark rounded-xl p-5 flex flex-col items-center justify-center text-center hover:border-gh-accent/50 transition-colors">
-                            <span class="text-3xl font-black text-gh-fg-dark mb-2">50+</span>
-                            <span class="text-[11px] text-gh-muted-dark uppercase tracking-wider font-bold">Brands Worked With</span>
+                    <!-- Split Grid (Roadmap & Performance) -->
+                    <div class="grid md:grid-cols-2 gap-10 md:gap-8 mt-auto">
+                        <!-- Roadmap Area -->
+                        <div>
+                            <h4 class="flex items-center gap-2 text-[#8B949E] text-[13px] font-bold uppercase tracking-wider mb-5">
+                                <span class="material-symbols-outlined text-[16px]">track_changes</span> System Highlights
+                            </h4>
+                            <ul class="space-y-4">
+                                <li class="flex items-center gap-3 text-[#8B949E] text-[14px] font-medium">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-[#238636] shadow-[0_0_8px_#238636]"></span> End-to-End Funnel Systems
+                                </li>
+                                <li class="flex items-center gap-3 text-[#8B949E] text-[14px] font-medium">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-[#238636] shadow-[0_0_8px_#238636]"></span> Data-Driven Funnel Architecture
+                                </li>
+                                <li class="flex items-center gap-3 text-[#8B949E] text-[14px] font-medium">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-[#238636] shadow-[0_0_8px_#238636]"></span> ₹Millions in Ad Spend Managed
+                                </li>
+                            </ul>
                         </div>
-                        <div class="bg-gh-inset-dark/50 border border-gh-border-dark rounded-xl p-5 flex flex-col items-center justify-center text-center hover:border-gh-green/50 transition-colors">
-                            <span class="text-3xl font-black text-gh-green mb-2">3.8x</span>
-                            <span class="text-[11px] text-gh-muted-dark uppercase tracking-wider font-bold">Up to ROAS</span>
+
+                        <!-- Performance Area -->
+                        <div>
+                            <h4 class="flex items-center gap-2 text-[#8B949E] text-[13px] font-bold uppercase tracking-wider mb-5">
+                                <span class="material-symbols-outlined text-[16px]">bar_chart</span> Performance
+                            </h4>
+                            <div class="flex gap-4">
+                                <div class="flex-1 bg-[#010409] border border-[#30363d] rounded-xl flex flex-col items-center justify-center py-5 px-2 hover:border-[#2f81f7]/50 transition-colors">
+                                    <span class="text-2xl font-black text-[#2f81f7] mb-1">50+</span>
+                                    <span class="text-[10px] text-[#8B949E] font-bold uppercase tracking-wider">Brands</span>
+                                </div>
+                                <div class="flex-1 bg-[#010409] border border-[#30363d] rounded-xl flex flex-col items-center justify-center py-5 px-2 hover:border-[#238636]/50 transition-colors">
+                                    <span class="text-2xl font-black text-[#238636] mb-1">3.8x</span>
+                                    <span class="text-[10px] text-[#8B949E] font-bold uppercase tracking-wider">Avg ROAS</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bg-gh-inset-dark/50 border border-gh-border-dark rounded-xl p-5 flex flex-col items-center justify-center text-center hover:border-gh-purple/50 transition-colors">
-                            <span class="text-2xl font-black text-gh-purple mb-2">₹Mil+</span>
-                            <span class="text-[11px] text-gh-muted-dark uppercase tracking-wider font-bold">Ad Spend Managed</span>
-                        </div>
-                        <div class="bg-gh-inset-dark/50 border border-gh-border-dark rounded-xl p-5 flex flex-col items-center justify-center text-center hover:border-gh-yellow/50 transition-colors">
-                            <span class="text-3xl font-black text-gh-yellow mb-2"><span class="material-symbols-outlined text-[32px]">all_inclusive</span></span>
-                            <span class="text-[11px] text-gh-muted-dark uppercase tracking-wider font-bold">End-to-End Funnels</span>
-                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Bar -->
+                <div class="px-6 py-4 border-t border-[#30363d] bg-[#161B22] flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-[#238636] animate-pulse"></span>
+                        <span class="text-[#238636] text-[11px] font-extrabold uppercase tracking-widest">Status: Optimization Active ⚡</span>
+                    </div>
+                    
+                    <div class="font-mono text-[13px] hidden sm:block">
+                        <span class="text-[#a371f7]">max</span> <span class="text-[#8B949E]">(</span> <span class="text-[#2f81f7]">ROAS</span> <span class="text-[#8B949E]">) {</span> <span class="text-[#238636]">scale()</span> <span class="text-[#8B949E]">}</span> <span class="w-2 h-4 bg-[#2f81f7] inline-block align-middle ml-1 animate-pulse"></span>
                     </div>
                 </div>
             </div>
