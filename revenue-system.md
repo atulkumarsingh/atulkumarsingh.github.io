@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Complete Revenue Systems | Atul Kumar
+title: Scalable Revenue Systems: Ad Buying Tracking and CRM Integration
+description: An end to end revenue system. Combine high converting ad campaigns with precise tracking and automated CRM workflows to scale your business predictability.
+keywords: marketing and sales automation, scalable growth systems, ad tracking and CRM integration, end to end revenue growth, business predictability
 ---
 
 <!-- ═══════════════════════════════════════════════ -->
@@ -10,7 +12,7 @@ title: Complete Revenue Systems | Atul Kumar
     <!-- Background Glow -->
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h1 class="text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight leading-tight">
-            Stop Buying Random Tactics. <span class="text-gh-yellow">Build a Complete</span> Revenue System.
+            Stop Buying Random Tactics 👋 Build a <span class="text-gh-yellow">Complete</span> Revenue System 🏗️
         </h1>
         
         <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
