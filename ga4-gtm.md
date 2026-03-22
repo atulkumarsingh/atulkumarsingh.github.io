@@ -1,6 +1,8 @@
 ---
 layout: default
-title: GA4 & GTM Tracking | Atul Kumar
+title: Analytics and Tracking Expert with GA4 and Google Tag Manager
+description: Accurate analytics and tracking using GA4 and Google Tag Manager. Fix tracking issues setup conversion goals and build custom Looker Studio dashboards.
+keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking setup, Looker Studio dashboard tracking issues fix
 ---
 
 <!-- ═══════════════════════════════════════════════ -->

@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Home
+title: Performance Marketing Analytics and CRM Automation Specialist
+description: Scalable revenue systems using Google Ads Meta Ads GA4 GTM and Zoho CRM. Generate leads track performance and automate conversions.
+keywords: performance marketing India, analytics and tracking expert, CRM automation specialist, Google Ads expert India, marketing automation systems
 ---
 
 {% include hero.html %}

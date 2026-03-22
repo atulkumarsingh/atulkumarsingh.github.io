@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Zoho CRM Automation | Atul Kumar
+title: Zoho CRM Setup and Automation Specialist for Business Growth
+description: Streamline sales and automate lead nurturing with custom Zoho CRM setup API integrations and advanced marketing automation flows.
+keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation, Zoho API integration, lead nurturing workflows
 ---
 
 <!-- ═══════════════════════════════════════════════ -->

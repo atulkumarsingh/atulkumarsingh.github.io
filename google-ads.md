@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Google Ads Management | Atul Kumar
+title: Google Ads Expert for Lead Generation and ROI Optimization
+description: High quality lead generation through Google Ads with intent based campaigns optimized funnels and accurate tracking for better ROI.
+keywords: Google Ads expert India, PPC consultant, lead generation Google Ads, ROI optimization PPC, performance marketing
 ---
 
 <!-- ═══════════════════════════════════════════════ -->
