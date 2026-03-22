@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="scroll-smooth dark" lang="en">
+
+{% include head.html %}
+
+<body class="bg-gh-inset-dark text-gh-fg-dark font-sans selection:bg-gh-accent selection:text-white flex flex-col min-h-screen">
+    
+    {% include header.html %}
+
+    <main class="flex-grow">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

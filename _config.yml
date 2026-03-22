@@ -1,0 +1,8 @@
+title: "Atul Kumar | Performance Marketing & Revenue Systems Specialist"
+description: "Atul Kumar - Specialist in Google Ads, Meta Ads, Zoho CRM Automation, and Analytics. Building scalable revenue systems for global brands."
+baseurl: ""
+url: "https://kumaratul.com"
+theme: jekyll-theme-primer # Optional, but since we are doing custom we can just leave empty or skip theme.
+# Build settings
+markdown: kramdown
+permalink: /:title/

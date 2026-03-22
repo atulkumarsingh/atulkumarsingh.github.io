@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="bg-gh-inset-dark min-h-screen py-12 md:py-20 border-b border-gh-border-dark">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="grid lg:grid-cols-4 gap-12 lg:gap-16">
+            
+            <!-- Left: Main Post Content -->
+            <div class="lg:col-span-3 space-y-12 reveal">
+                <header class="mb-10">
+                    <!-- Categories -->
+                    {% if page.categories.size > 0 %}
+                    <div class="flex gap-2 mb-6">
+                        {% for category in page.categories %}
+                        <a href="{{ '/category/' | append: category | downcase | relative_url }}" class="text-[12px] font-bold text-gh-accent uppercase tracking-wider hover:underline">{{ category }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <h1 class="text-3xl md:text-5xl lg:text-5xl font-extrabold text-gh-fg-dark mb-6 leading-tight tracking-tight">{{ page.title }}</h1>
+                    
+                    <div class="flex items-center gap-4 border-y border-gh-border-dark py-4">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-10 h-10 rounded-full overflow-hidden border border-gh-border-dark">
+                                <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="{{ site.title }}" class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-[14px] font-bold text-gh-fg-dark">Atul Kumar</span>
+                                <span class="text-[12px] text-gh-muted-dark">{{ page.date | date: "%B %d, %Y" }} • {{ page.content | number_of_words | divided_by: 180 | plus: 1 }} min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                {% if page.image %}
+                <figure class="w-full aspect-video rounded-xl overflow-hidden border border-gh-border-dark mb-10 shadow-lg">
+                    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="w-full h-full object-cover">
+                </figure>
+                {% endif %}
+
+                <!-- Prose Content Engine -->
+                <div class="prose prose-invert prose-lg max-w-none prose-headings:text-gh-fg-dark prose-a:text-gh-accent hover:prose-a:text-gh-accent/80 prose-blockquote:border-l-gh-purple prose-blockquote:bg-gh-subtle-dark prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-pre:bg-gh-canvas-dark prose-pre:border prose-pre:border-gh-border-dark prose-img:rounded-xl prose-img:border prose-img:border-gh-border-dark">
+                    {{ content }}
+                </div>
+
+                <!-- Post Footer (Share / Tags) -->
+                <div class="mt-16 pt-8 border-t border-gh-border-dark flex flex-wrap justify-between items-center gap-6">
+                    <div class="flex gap-2">
+                        {% for tag in page.tags %}
+                        <span class="px-3 py-1 bg-gh-subtle-dark border border-gh-border-dark rounded-md text-[13px] text-gh-muted-dark font-mono">#{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <span class="text-[14px] font-semibold text-gh-fg-dark">Share:</span>
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank" class="w-8 h-8 rounded-full bg-gh-subtle-dark flex items-center justify-center border border-gh-border-dark hover:border-gh-accent hover:text-gh-accent transition-all">
+                            <i class="fa-brands fa-x-twitter text-[14px]"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}" target="_blank" class="w-8 h-8 rounded-full bg-gh-subtle-dark flex items-center justify-center border border-gh-border-dark hover:border-gh-accent hover:text-gh-accent transition-all">
+                            <i class="fa-brands fa-linkedin text-[14px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Sidebar -->
+            <div class="lg:col-span-1 border-t lg:border-t-0 lg:border-l border-gh-border-dark pt-12 lg:pt-0 lg:pl-8 reveal-delay-1">
+                {% include sidebar.html %}
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% include cta.html %}

@@ -1,0 +1,57 @@
+<aside class="sticky top-24 space-y-8">
+    
+    <!-- Search Widget -->
+    <div class="bg-gh-canvas-dark border border-gh-border-dark rounded-xl p-6">
+        <h3 class="text-lg font-bold text-gh-fg-dark mb-4">Search</h3>
+        <form action="/search" method="get" class="flex gap-2">
+            <input type="text" name="q" placeholder="Type to search..." 
+                class="w-full bg-gh-inset-dark border border-gh-border-dark rounded-md px-3 py-2 text-sm text-gh-fg-dark placeholder-gh-muted-dark focus:border-gh-accent focus:ring-1 focus:ring-gh-accent outline-none transition-colors">
+            <button type="submit" class="bg-gh-subtle-dark hover:bg-gh-border-dark px-3 py-2 rounded-md border border-gh-border-dark text-gh-fg-dark transition-colors">
+                <span class="material-symbols-outlined text-[16px]">search</span>
+            </button>
+        </form>
+    </div>
+
+    <!-- Categories Widget -->
+    <div class="bg-gh-canvas-dark border border-gh-border-dark rounded-xl p-6">
+        <h3 class="text-lg font-bold text-gh-fg-dark mb-4">Categories</h3>
+        <ul class="space-y-2">
+            {% assign categories = site.categories | sort %}
+            {% for category in categories %}
+            <li>
+                <a href="{{ '/category/' | append: category[0] | downcase | relative_url }}" class="flex items-center justify-between text-[15px] text-gh-muted-dark hover:text-gh-accent transition-colors">
+                    <span>{{ category[0] | capitalize }}</span>
+                    <span class="bg-gh-inset-dark border border-gh-border-dark text-[11px] px-2 py-0.5 rounded-full">{{ category[1].size }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Popular Posts Widget -->
+    <div class="bg-gh-canvas-dark border border-gh-border-dark rounded-xl p-6">
+        <h3 class="text-lg font-bold text-gh-fg-dark mb-4">Popular Posts</h3>
+        <ul class="space-y-4">
+            {% for post in site.posts limit:4 %}
+            <li>
+                <a href="{{ post.url | relative_url }}" class="group flex flex-col gap-1">
+                    <h4 class="text-[14px] font-semibold text-gh-fg-dark group-hover:text-gh-accent transition-colors leading-tight">{{ post.title }}</h4>
+                    <span class="text-[12px] text-gh-muted-dark">{{ post.date | date: "%B %d, %Y" }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- CTA Widget -->
+    <div class="bg-gradient-to-br from-gh-canvas-dark to-gh-subtle-dark border border-gh-border-dark rounded-xl p-6 text-center shadow-lg relative overflow-hidden group">
+        <div class="absolute inset-0 bg-gh-accent/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        <h3 class="text-xl font-bold text-gh-fg-dark mb-3 relative z-10">Need a scaling strategy?</h3>
+        <p class="text-[14px] text-gh-muted-dark mb-6 relative z-10">Stop guessing. Let's audit your entire funnel and find the missing revenue.</p>
+        <a href="javascript:void(0)" class="open-calendar inline-flex items-center justify-center gap-2 w-full px-4 py-3 bg-gh-accent hover:bg-gh-accent/90 text-white font-bold rounded-lg transition-colors relative z-10">
+            <span class="material-symbols-outlined text-[16px]">calendar_today</span>
+            Get Free Audit
+        </a>
+    </div>
+
+</aside>

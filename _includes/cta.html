@@ -1,0 +1,19 @@
+<section class="py-24 bg-gh-canvas-dark relative overflow-hidden{% if include.class %} {{ include.class }}{% endif %}">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-gh-fg-dark mb-6 tracking-tight">{% if include.title %}{{ include.title }}{% else %}Ready to Audit Your Growth?{% endif %}</h2>
+        <p class="text-lg text-gh-muted-dark mb-10 max-w-2xl mx-auto">{% if include.description %}{{ include.description }}{% else %}Let’s find the leaks in your funnel and build a system that scales.{% endif %}</p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="javascript:void(0)"
+                class="open-calendar px-8 py-4 bg-gh-accent hover:bg-gh-accent/90 text-white font-bold rounded-xl transition-all shadow-xl shadow-gh-accent/20">{% if include.btn_text %}{{ include.btn_text }}{% else %}Schedule Your Strategy Audit{% endif %}</a>
+            <a href="mailto:connect@kumaratul.com"
+                class="px-8 py-4 bg-gh-subtle-dark border border-gh-border-dark text-gh-fg-dark font-bold rounded-xl hover:bg-gh-border-dark transition-all">Contact Directly</a>
+            {% if site.whatsapp_number %}
+            <a href="https://wa.me/{{ site.whatsapp_number }}" target="_blank"
+                class="px-8 py-4 bg-gh-green hover:bg-gh-green/90 text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2">
+                <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp Us
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
