@@ -15,7 +15,7 @@ title: About Me | Atul Kumar
         </div>
         
         <h1 class="text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight leading-tight">
-            Hi, I'm <span class="bg-[#238636] border border-[rgba(240,246,252,0.1)] bg-clip-text text-transparent">Atul Kumar</span>
+            Hi, I'm <span class="text-white">Atul Kumar</span>
         </h1>
         
         <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
@@ -134,7 +134,7 @@ title: About Me | Atul Kumar
 <!-- ═══════════════════════════════════════════════ -->
 <!-- 5. FINAL CTA -->
 <!-- ═══════════════════════════════════════════════ -->
-<section class="py-10 md:py-14 bg-[#238636] border border-[rgba(240,246,252,0.1)] relative overflow-hidden border-b border-gh-border-dark">
+<section class="py-10 md:py-14 bg-[#010409] relative overflow-hidden border-b border-gh-border-dark">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h2 class="text-3xl md:text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight">Ready to fix your funnel?</h2>
         <p class="text-lg text-gh-muted-dark mb-10 font-medium max-w-2xl mx-auto">Skip the generic agencies. Work with an expert who understands horizontal integration of Ads, Tracking, and CRM.</p>

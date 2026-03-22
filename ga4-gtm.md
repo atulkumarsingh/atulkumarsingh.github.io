@@ -226,7 +226,7 @@ title: GA4 & GTM Tracking | Atul Kumar
 <!-- ═══════════════════════════════════════════════ -->
 <section class="py-10 md:py-14 bg-[#010409] border-b border-gh-border-dark">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
-        <div class="bg-[#238636] border border-[rgba(240,246,252,0.1)] border border-gh-border-dark rounded-2xl p-8 md:p-12 shadow-sm reveal">
+        <div class="bg-[#161b22] border border-gh-border-dark rounded-2xl p-8 md:p-12 shadow-sm reveal">
             <h2 class="text-3xl font-bold text-gh-fg-dark mb-4 tracking-tight">Understanding GA4: Event-Based Tracking</h2>
             <p class="text-[16px] text-gh-muted-dark mb-8 max-w-2xl font-medium">Unlike Universal Analytics which tracked sessions, GA4 tracks everything as events. This shift requires a completely new architecture.</p>
 
@@ -476,7 +476,7 @@ title: GA4 & GTM Tracking | Atul Kumar
             </div>
 
             <!-- Advanced -->
-            <div class="bg-[#238636] border border-[rgba(240,246,252,0.1)] border border-gh-green/30 rounded-2xl p-8 flex flex-col hover:-translate-y-1 transition-transform relative overflow-hidden reveal reveal-delay-2 shadow-sm shadow-gh-green/5">
+            <div class="bg-[#161b22] border border-gh-green/30 rounded-2xl p-8 flex flex-col hover:-translate-y-1 transition-transform relative overflow-hidden reveal reveal-delay-2 shadow-sm shadow-gh-green/5">
                 <div class="absolute top-0 right-0 bg-gh-green text-white text-[12px] font-bold px-3 py-1 rounded-bl-lg">POPULAR ⭐</div>
                 <h3 class="text-2xl font-bold text-gh-fg-dark mb-6">Advanced Tracking</h3>
                 <ul class="space-y-4 mb-8 flex-grow">
@@ -513,7 +513,7 @@ title: GA4 & GTM Tracking | Atul Kumar
                 </ul>
             </div>
             
-            <div class="bg-[#238636] border border-[rgba(240,246,252,0.1)] border border-gh-green/30 rounded-2xl p-8 shadow-sm shadow-gh-green/5 reveal reveal-delay-1">
+            <div class="bg-[#161b22] border border-gh-green/30 rounded-2xl p-8 shadow-sm shadow-gh-green/5 reveal reveal-delay-1">
                 <h3 class="text-[15px] md:text-[16px] font-bold text-gh-green mb-6 border-b border-gh-border-dark pb-4">Me:</h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-gh-fg-dark font-bold"><span class="material-symbols-outlined text-[18px] text-gh-green">check_circle</span> Business-focused tracking</li>
@@ -557,7 +557,7 @@ title: GA4 & GTM Tracking | Atul Kumar
 <!-- ═══════════════════════════════════════════════ -->
 <!-- 15. FINAL CTA -->
 <!-- ═══════════════════════════════════════════════ -->
-<section class="py-10 md:py-14 bg-[#238636] border border-[rgba(240,246,252,0.1)] relative overflow-hidden border-b border-gh-border-dark">
+<section class="py-10 md:py-14 bg-[#010409] relative overflow-hidden border-b border-gh-border-dark">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h2 class="text-3xl md:text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight">Stop Guessing. <span class="text-gh-green">Start Scaling with Accurate Data.</span></h2>
         <p class="text-lg text-gh-muted-dark mb-10 max-w-2xl mx-auto font-medium">Let’s fix your tracking and unlock real insights.</p>

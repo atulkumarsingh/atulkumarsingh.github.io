@@ -1,55 +1,63 @@
-<section class="relative py-10 md:py-14 overflow-hidden bg-[#010409] border-b border-gh-border-dark">
+<section class="relative pt-6 pb-8 md:pt-8 md:pb-12 overflow-hidden bg-[#010409] border-b border-gh-border-dark">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
-        <div class="grid lg:grid-cols-[1fr_1.6fr] gap-12 lg:gap-16 items-start reveal">
+        <div class="grid lg:grid-cols-[1fr_1.6fr] gap-8 lg:gap-12 items-start reveal">
             
             <!-- ════════════ Left: Profile Information ════════════ -->
             <div class="flex flex-col">
                 <!-- Avatar -->
-                <div class="relative w-36 h-36 md:w-44 md:h-44 mb-6">
-                                        <img src="{{ '/assets/images/profile.png' | relative_url }}" class="relative w-full h-full rounded-full border border-[#30363d] object-cover z-10" alt="Atul Kumar">
+                <div class="relative w-24 h-24 md:w-32 md:h-32 mb-4">
+                    <img src="{{ '/assets/images/profile.png' | relative_url }}" class="relative w-full h-full rounded-full border border-[#30363d] object-cover z-10" alt="Atul Kumar">
                     <!-- Online Status Dot -->
-                    <div class="absolute bottom-2 right-2 md:bottom-3 md:right-3 w-4 h-4 rounded-full bg-[#238636] border-2 border-[#010409] z-20 shadow-sm"></div>
+                    <div class="absolute bottom-1 right-1 md:bottom-2 md:right-2 w-3.5 h-3.5 rounded-full bg-[#238636] border-2 border-[#010409] z-20 shadow-sm"></div>
                 </div>
 
                 <!-- Name & Title -->
-                <h1 class="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Atul Kumar</h1>
-                <h2 class="text-[#2f81f7] text-[15px] md:text-[16px] font-bold mb-6">Performance Marketer | Analytics Specialist | CRM Automation Expert</h2>
+                <h1 class="text-2xl md:text-3xl font-semibold text-white mb-1 tracking-tight">Atul Kumar</h1>
+                <h2 class="text-[#2f81f7] text-[14px] md:text-[15px] font-bold mb-4">Performance Marketer | Analytics Specialist | CRM Automation Expert</h2>
 
                 <!-- Description -->
-                <p class="text-[#8b949e] text-[15px] md:text-[16px] leading-relaxed mb-6 font-medium">
+                <p class="text-[#8b949e] text-[14px] leading-relaxed mb-4 font-medium">
                     Building high-performance revenue engines using <strong>Precision Ads, CRM Automation,</strong> and <strong>Advanced Analytics.</strong><br>
                     No fluff. Just systems that drive real growth.
                 </p>
 
-                <!-- List Info -->
-                <div class="flex flex-col gap-3 text-[#8b949e] text-[14px] font-medium mb-8">
-                    <div class="flex items-center gap-3">
-                        <span class="material-symbols-outlined text-[18px]">settings</span>
-                        <span>Performance Marketing • Automation • Analytics</span>
+                <!-- List Info & Skills -->
+                <div class="flex flex-col gap-2 text-[#8b949e] text-[13px] font-medium mb-5">
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> India</span>
+                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">link</span> <a href="mailto:hello@kumaratul.com" class="text-[#2f81f7] hover:underline">hello@kumaratul.com</a></span>
                     </div>
-                    <div class="flex items-center gap-3">
-                        <span class="material-symbols-outlined text-[18px]">location_on</span>
-                        <span>India</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <span class="material-symbols-outlined text-[18px]">link</span>
-                        <a href="mailto:hello@kumaratul.com" class="text-[#2f81f7] hover:underline transition-colors">hello@kumaratul.com</a>
+                </div>
+
+                <!-- Skills Area -->
+                <div class="mb-5 border-t border-[#30363d] pt-4">
+                    <p class="text-[11px] font-bold text-[#8b949e] uppercase tracking-wider mb-2">Tech Stack & Skills</p>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Google Ads</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Bing Ads</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Meta Ads</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">GA4</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">GTM</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Looker Studio</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">SQL</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Javascript</span>
+                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">BigQuery</span>
                     </div>
                 </div>
 
                 <!-- Socials -->
-                <div class="flex items-center gap-5 mb-8">
-                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-linkedin text-[15px] md:text-[16px]"></i></a>
-                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-x-twitter text-[15px] md:text-[16px]"></i></a>
-                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-github text-[15px] md:text-[16px]"></i></a>
+                <div class="flex items-center gap-4 mb-5">
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-linkedin text-[16px]"></i></a>
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-x-twitter text-[16px]"></i></a>
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-github text-[16px]"></i></a>
                 </div>
 
                 <!-- Action Buttons -->
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#2f81f7] hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-sm shadow-[#2f81f7]/20">
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#238636] hover:bg-[#2ea043] border border-[rgba(240,246,252,0.1)] text-white font-bold py-2.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-all shadow-sm">
                         <span class="material-symbols-outlined text-[18px]">calendar_today</span> Schedule a Call
                     </a>
-                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#21262d] hover:bg-[#30363d] text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 border border-[#30363d] transition-colors">
+                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#21262d] hover:bg-[#30363d] text-white font-bold py-2.5 px-4 rounded-lg flex items-center justify-center gap-2 border border-[#30363d] transition-colors">
                         <span class="material-symbols-outlined text-[18px]">category</span> View Services
                     </a>
                 </div>

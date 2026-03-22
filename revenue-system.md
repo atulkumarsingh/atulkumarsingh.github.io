@@ -271,7 +271,7 @@ title: Complete Revenue Systems | Atul Kumar
             </div>
 
             <!-- Ongoing -->
-            <div class="bg-[#238636] border border-[rgba(240,246,252,0.1)] border border-gh-yellow/30 rounded-2xl p-8 flex flex-col hover:-translate-y-1 transition-transform relative overflow-hidden reveal reveal-delay-2 shadow-sm shadow-gh-yellow/5">
+            <div class="bg-[#161b22] border border-gh-yellow/30 rounded-2xl p-8 flex flex-col hover:-translate-y-1 transition-transform relative overflow-hidden reveal reveal-delay-2 shadow-sm shadow-gh-yellow/5">
                 <div class="absolute top-0 right-0 bg-gh-yellow text-gh-canvas-dark text-[12px] font-bold px-3 py-1 rounded-bl-lg">HIGH TICKET</div>
                 <h3 class="text-2xl font-bold text-gh-fg-dark mb-4">Fractional Growth Partner</h3>
                 <p class="text-gh-muted-dark mb-6 text-[15px]">Ongoing monthly management of your entire revenue ecosystem. You run your business; I manage your growth engine.</p>
@@ -293,7 +293,7 @@ title: Complete Revenue Systems | Atul Kumar
 <!-- ═══════════════════════════════════════════════ -->
 <!-- 15. FINAL CTA -->
 <!-- ═══════════════════════════════════════════════ -->
-<section class="py-10 md:py-14 bg-[#238636] border border-[rgba(240,246,252,0.1)] relative overflow-hidden border-b border-gh-border-dark">
+<section class="py-10 md:py-14 bg-[#010409] relative overflow-hidden border-b border-gh-border-dark">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h2 class="text-3xl md:text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight">Ready to Build a Machine That Actually Scales?</h2>
         <p class="text-lg text-gh-muted-dark mb-10 max-w-2xl mx-auto font-medium">Let’s combine your traffic, data, and sales into one unified growth architecture.</p>

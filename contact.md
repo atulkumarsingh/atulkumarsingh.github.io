@@ -10,7 +10,7 @@ title: Contact | Atul Kumar
     <!-- Background Glow -->
         <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h1 class="text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight leading-tight">
-            Stop Leaking Revenue. Let's Build Your <span class="bg-[#238636] border border-[rgba(240,246,252,0.1)] bg-clip-text text-transparent">Growth Engine.</span>
+            Stop Leaking Revenue. Let's Build Your <span class="text-white">Growth Engine.</span>
         </h1>
         
         <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-2xl mx-auto">

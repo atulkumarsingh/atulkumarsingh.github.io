@@ -436,7 +436,7 @@ title: Google Ads Management | Atul Kumar
             </div>
 
             <!-- Ongoing -->
-            <div class="bg-[#238636] border border-[rgba(240,246,252,0.1)] border border-gh-accent/30 rounded-2xl p-8 flex flex-col hover:-translate-y-1 transition-transform relative overflow-hidden reveal reveal-delay-2 shadow-sm shadow-gh-accent/5">
+            <div class="bg-[#161b22] border border-gh-accent/30 rounded-2xl p-8 flex flex-col hover:-translate-y-1 transition-transform relative overflow-hidden reveal reveal-delay-2 shadow-sm shadow-gh-accent/5">
                 <div class="absolute top-0 right-0 bg-gh-accent text-white text-[12px] font-bold px-3 py-1 rounded-bl-lg">POPULAR ⭐</div>
                 <h3 class="text-2xl font-bold text-gh-fg-dark mb-6">Ongoing Management</h3>
                 <ul class="space-y-4 mb-8 flex-grow">
@@ -474,7 +474,7 @@ title: Google Ads Management | Atul Kumar
                 </ul>
             </div>
             
-            <div class="bg-[#238636] border border-[rgba(240,246,252,0.1)] border border-gh-accent/30 rounded-2xl p-8 shadow-sm shadow-gh-accent/5 reveal reveal-delay-1">
+            <div class="bg-[#161b22] border border-gh-accent/30 rounded-2xl p-8 shadow-sm shadow-gh-accent/5 reveal reveal-delay-1">
                 <h3 class="text-[15px] md:text-[16px] font-bold text-gh-accent mb-6 border-b border-gh-border-dark pb-4">Me:</h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-gh-fg-dark font-bold"><span class="material-symbols-outlined text-[18px] text-gh-accent">check_circle</span> Direct communication</li>
@@ -518,7 +518,7 @@ title: Google Ads Management | Atul Kumar
 <!-- ═══════════════════════════════════════════════ -->
 <!-- 13. FINAL CTA -->
 <!-- ═══════════════════════════════════════════════ -->
-<section class="py-10 md:py-14 bg-[#238636] border border-[rgba(240,246,252,0.1)] relative overflow-hidden border-b border-gh-border-dark">
+<section class="py-10 md:py-14 bg-[#010409] relative overflow-hidden border-b border-gh-border-dark">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center reveal">
         <h2 class="text-3xl md:text-2xl md:text-3xl font-semibold text-gh-fg-dark mb-6 tracking-tight">Ready to Turn Your Google Ads Into a Lead Machine?</h2>
         <p class="text-lg text-gh-muted-dark mb-10 max-w-2xl mx-auto font-medium">Let’s fix what’s not working and scale what is.</p>
