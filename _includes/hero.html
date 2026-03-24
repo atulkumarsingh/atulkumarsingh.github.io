@@ -5,127 +5,136 @@
             <!-- ════════════ Left: Profile Information ════════════ -->
             <div class="flex flex-col">
                 <!-- Avatar -->
-                <div class="relative w-24 h-24 md:w-32 md:h-32 mb-4 float-anim">
-                    <img src="{{ '/assets/images/profile.png' | relative_url }}" class="relative w-full h-full rounded-full border border-[#30363d] object-cover z-10" alt="Atul Kumar">
+                <div class="relative w-28 h-28 md:w-36 md:h-36 mb-6 float-anim">
+                    <div class="absolute -inset-1 rounded-full bg-gradient-to-tr from-[#2f81f7] via-white to-[#a371f7] blur opacity-75 animate-pulse z-0"></div>
+                    <img src="{{ '/assets/images/profile.png' | relative_url }}" class="relative w-full h-full rounded-full border-4 border-white object-cover z-10 shadow-xl" alt="Atul Kumar">
                     <!-- Online Status Dot -->
-                    <div class="absolute bottom-1 right-1 md:bottom-2 md:right-2 w-3.5 h-3.5 rounded-full bg-[#238636] border-2 border-[#010409] z-20 shadow-sm"></div>
+                    <div class="absolute bottom-1 right-1 md:bottom-3 md:right-3 w-4 h-4 rounded-full bg-[#238636] border-2 border-[#010409] z-20 shadow-lg status-pulse"></div>
                 </div>
 
                 <!-- Name & Title -->
-                <h1 class="text-2xl md:text-3xl font-semibold text-white mb-1 tracking-tight">Atul Kumar 🚀</h1>
-                <h2 class="text-[#2f81f7] text-[14px] md:text-[15px] font-bold mb-4 flex flex-wrap gap-2 items-center">
-                    <span>Performance Marketer</span>
+                <h1 class="text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight">Atul Kumar <span class="animate-bounce inline-block">🚀</span></h1>
+                <h2 class="text-[#2f81f7] text-[15px] md:text-[16px] font-bold mb-5 flex flex-wrap gap-2 items-center">
+                    <span class="hover:text-white transition-colors cursor-default">Performance Marketer</span>
                     <span class="text-[#30363d]">•</span>
-                    <span>Analytics Specialist</span>
+                    <span class="hover:text-white transition-colors cursor-default">Analytics Specialist</span>
                     <span class="text-[#30363d]">•</span>
-                    <span>CRM Automation Expert</span>
+                    <span class="hover:text-white transition-colors cursor-default">CRM Automation Expert</span>
                 </h2>
 
                 <!-- Description -->
-                <p class="text-[#8b949e] text-[14px] leading-relaxed mb-4 font-medium">
-                    Building high-performance revenue engines using <strong>Precision Ads, CRM Automation,</strong> and <strong>Advanced Analytics.</strong><br>
-                    No fluff. Just systems that drive real growth.
+                <p class="text-[#8b949e] text-[15px] md:text-[16px] leading-relaxed mb-6 font-medium max-w-sm">
+                    Building high-performance <span class="text-white">revenue engines</span> using <strong class="text-[#2f81f7]">Precision Ads,</strong> <strong class="text-[#238636]">CRM Automation,</strong> and <strong class="text-[#a371f7]">Advanced Analytics.</strong><br>
+                    No fluff. Just systems that drive <span class="italic text-gh-green">real growth.</span>
                 </p>
 
                 <!-- List Info & Skills -->
-                <div class="flex flex-col gap-2 text-[#8b949e] text-[13px] font-medium mb-5">
-                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
-                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> India</span>
-                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">link</span> <a href="mailto:hello@kumaratul.com" class="text-[#2f81f7] hover:underline">hello@kumaratul.com</a></span>
+                <div class="flex flex-col gap-2 text-[#8b949e] text-[14px] font-medium mb-6">
+                    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+                        <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px] text-[#2f81f7]">location_on</span> India</span>
+                        <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px] text-[#2f81f7]">mail</span> <a href="mailto:hello@kumaratul.com" class="text-[#2f81f7] hover:text-white hover:underline transition-all">hello@kumaratul.com</a></span>
                     </div>
                 </div>
 
                 <!-- Skills Area -->
-                <div class="mb-5 border-t border-[#30363d] pt-4">
-                    <p class="text-[11px] font-bold text-[#8b949e] uppercase tracking-wider mb-2">⚡ Tech Stack & Skills</p>
-                    <div class="flex flex-wrap gap-1.5">
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Google Ads</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Bing Ads</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Meta Ads</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">GA4</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">GTM</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Looker Studio</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">SQL</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">Javascript</span>
-                        <span class="px-2 py-0.5 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-medium">BigQuery</span>
+                <div class="mb-6 border-t border-[#30363d] pt-5">
+                    <p class="text-[11px] font-bold text-[#8b949e] uppercase tracking-[0.15em] mb-3">⚡ Tech Stack & Skills</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">Google Ads</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">Bing Ads</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">Meta Ads</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">GA4</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">GTM</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">Looker Studio</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">SQL</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">Javascript</span>
+                        <span class="px-2.5 py-1 border border-[#30363d] bg-[#161b22] text-[#e6edf3] text-[11px] rounded-md font-bold hover:bg-[#30363d] transition-colors cursor-default">BigQuery</span>
                     </div>
                 </div>
 
                 <!-- Socials -->
-                <div class="flex items-center gap-4 mb-5">
-                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-linkedin text-[16px]"></i></a>
-                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-x-twitter text-[16px]"></i></a>
-                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-white transition-colors"><i class="fa-brands fa-github text-[16px]"></i></a>
+                <div class="flex items-center gap-5 mb-6">
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-[#2f81f7] transition-all transform hover:scale-110"><i class="fa-brands fa-linkedin text-[18px]"></i></a>
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-[#2f81f7] transition-all transform hover:scale-110"><i class="fa-brands fa-x-twitter text-[18px]"></i></a>
+                    <a href="javascript:void(0)" class="text-[#8b949e] hover:text-[#2f81f7] transition-all transform hover:scale-110"><i class="fa-brands fa-github text-[18px]"></i></a>
                 </div>
 
                 <!-- Action Buttons -->
                 <div class="flex flex-col sm:flex-row gap-3">
-                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#238636] hover:bg-[#2ea043] border border-[rgba(240,246,252,0.1)] text-white font-bold py-2.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-all shadow-sm">
-                        <span class="material-symbols-outlined text-[18px]">calendar_today</span> Schedule a Call
+                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#238636] hover:bg-[#2ea043] border border-[rgba(240,246,252,0.1)] text-white font-bold py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-[#238636]/20">
+                        <span class="material-symbols-outlined text-[20px]">calendar_today</span> Schedule a Call
                     </a>
-                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#21262d] hover:bg-[#30363d] text-white font-bold py-2.5 px-4 rounded-lg flex items-center justify-center gap-2 border border-[#30363d] transition-colors">
-                        <span class="material-symbols-outlined text-[18px]">category</span> View Services
+                    <a href="javascript:void(0)" class="open-calendar flex-1 bg-[#21262d] hover:bg-[#30363d] text-white font-bold py-3 px-6 rounded-xl flex items-center justify-center gap-2 border border-[#30363d] transition-all shadow-sm">
+                        <span class="material-symbols-outlined text-[20px]">category</span> View Services
                     </a>
                 </div>
             </div>
 
             <!-- ════════════ Right: Terminal System Card ════════════ -->
-            <div class="bg-[#0D1117] border border-[#30363d] rounded-2xl flex flex-col shadow-sm relative overflow-hidden h-full">
+            <div class="bg-[#0D1117]/80 glass border border-[#30363d] rounded-2xl flex flex-col shadow-2xl relative overflow-hidden h-full">
                 <!-- Top bar -->
-                <div class="px-4 py-2 text-[14px] border-b border-[#30363d] bg-[#161B22] flex items-center">
+                <div class="px-4 py-2.5 text-[14px] border-b border-[#30363d] bg-[#161B22]/50 glass flex items-center">
+                    <div class="flex gap-1.5 mr-4">
+                        <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+                        <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+                        <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+                    </div>
                     <span class="material-symbols-outlined text-[#8B949E] text-[16px] mr-2">terminal</span>
-                    <span class="text-[#8B949E] text-[12px] font-bold tracking-wider uppercase">Ready to scale your revenue 📈</span>
+                    <span class="text-[#8B949E] text-[11px] font-bold tracking-[0.2em] uppercase">Ready to scale your revenue 📈</span>
                 </div>
                 
                 <!-- Content body -->
-                <div class="p-6 md:p-10 flex-grow flex flex-col">
-                    <h2 class="text-2xl md:text-3xl font-semibold text-white mb-4 tracking-tight">I Build Scalable Revenue Systems Using Ads, Data & Automation 👋</h2>
+                <div class="p-8 md:p-12 flex-grow flex flex-col">
+                    <h2 class="text-3xl md:text-4xl font-semibold text-white mb-6 tracking-tight leading-tight">I Build Scalable <span class="text-[#2f81f7]">Revenue Systems</span> Using Ads, Data & Automation 👋</h2>
                     
-                    <p class="text-[#8B949E] text-[15px] leading-relaxed mb-8">
-                        Most businesses run ads. <strong>Few track properly.</strong> Even fewer automate correctly. I combine Google & Meta advertising, GA4 + GTM tracking infrastructure, and Zoho CRM automation to create <strong>structured, scalable revenue systems.</strong> Google Ads, Meta Ads, GA4, GTM & Zoho CRM — connected to generate leads, track performance, and convert customers.
+                    <p class="text-[#8B949E] text-[16px] leading-[1.7] mb-8 font-medium">
+                        Most businesses run ads. <strong class="text-white">Few track properly.</strong> Even fewer automate correctly. I combine Google & Meta advertising, GA4 + GTM tracking infrastructure, and Zoho CRM automation to create <strong>structured, scalable revenue systems.</strong>
                     </p>
 
                     <!-- Tags -->
-                    <div class="flex flex-wrap gap-3 mb-10">
-                        <span class="px-4 py-1.5 rounded-full border border-[#2f81f7]/30 bg-[#2f81f7]/10 text-[#2f81f7] text-[12px] font-bold tracking-wide">Google Ads</span>
-                        <span class="px-4 py-1.5 rounded-full border border-[#a371f7]/30 bg-[#a371f7]/10 text-[#a371f7] text-[12px] font-bold tracking-wide">Meta Ads</span>
-                        <span class="px-4 py-1.5 rounded-full border border-[#238636]/30 bg-[#238636]/10 text-[#238636] text-[12px] font-bold tracking-wide">Zoho CRM</span>
-                        <span class="px-4 py-1.5 rounded-full border border-[#d29922]/30 bg-[#d29922]/10 text-[#d29922] text-[12px] font-bold tracking-wide">Analytics</span>
+                    <div class="flex flex-wrap gap-2.5 mb-10">
+                        <span class="px-4 py-2 rounded-lg border border-[#2f81f7]/40 bg-[#2f81f7]/10 text-[#2f81f7] text-[11px] font-bold tracking-widest uppercase hover:bg-[#2f81f7]/20 transition-all cursor-default">Google Ads</span>
+                        <span class="px-4 py-2 rounded-lg border border-[#a371f7]/40 bg-[#a371f7]/10 text-[#a371f7] text-[11px] font-bold tracking-widest uppercase hover:bg-[#a371f7]/20 transition-all cursor-default">Meta Ads</span>
+                        <span class="px-4 py-2 rounded-lg border border-[#238636]/40 bg-[#238636]/10 text-[#238636] text-[11px] font-bold tracking-widest uppercase hover:bg-[#238636]/20 transition-all cursor-default">Zoho CRM</span>
+                        <span class="px-4 py-2 rounded-lg border border-[#d29922]/40 bg-[#d29922]/10 text-[#d29922] text-[11px] font-bold tracking-widest uppercase hover:bg-[#d29922]/20 transition-all cursor-default">Analytics</span>
                     </div>
 
                     <!-- Split Grid (Roadmap & Performance) -->
-                    <div class="grid md:grid-cols-2 gap-10 md:gap-8 mt-auto">
+                    <div class="grid md:grid-cols-2 gap-12 md:gap-10 mt-auto">
                         <!-- Roadmap Area -->
                         <div>
-                            <h4 class="flex items-center gap-2 text-[#8B949E] text-[13px] font-bold uppercase tracking-wider mb-5">
-                                <span class="material-symbols-outlined text-[16px]">track_changes</span> System Highlights
+                            <h4 class="flex items-center gap-2 text-[#8B949E] text-[12px] font-bold uppercase tracking-[0.2em] mb-6">
+                                <span class="material-symbols-outlined text-[18px]">track_changes</span> System Highlights
                             </h4>
                             <ul class="space-y-4">
-                                <li class="flex items-center gap-3 text-[#8B949E] text-[14px] font-medium">
-                                    <span class="w-1.5 h-1.5 rounded-full bg-[#238636] "></span> End-to-End Funnel Systems
+                                <li class="flex items-center gap-3 text-[#e6edf3] text-[15px] font-semibold group">
+                                    <span class="w-2 h-2 rounded-full bg-[#238636] shadow-[0_0_8px_#238636]"></span> 
+                                    <span class="group-hover:text-[#2f81f7] transition-colors">End-to-End Funnel Systems</span>
                                 </li>
-                                <li class="flex items-center gap-3 text-[#8B949E] text-[14px] font-medium">
-                                    <span class="w-1.5 h-1.5 rounded-full bg-[#238636] "></span> Data-Driven Funnel Architecture
+                                <li class="flex items-center gap-3 text-[#e6edf3] text-[15px] font-semibold group">
+                                    <span class="w-2 h-2 rounded-full bg-[#238636] shadow-[0_0_8px_#238636]"></span> 
+                                    <span class="group-hover:text-[#2f81f7] transition-colors">Data-Driven Funnel Architecture</span>
                                 </li>
-                                <li class="flex items-center gap-3 text-[#8B949E] text-[14px] font-medium">
-                                    <span class="w-1.5 h-1.5 rounded-full bg-[#238636] "></span> ₹Millions in Ad Spend Managed
+                                <li class="flex items-center gap-3 text-[#e6edf3] text-[15px] font-semibold group">
+                                    <span class="w-2 h-2 rounded-full bg-[#238636] shadow-[0_0_8px_#238636]"></span> 
+                                    <span class="group-hover:text-[#2f81f7] transition-colors">₹Millions in Ad Spend Managed</span>
                                 </li>
                             </ul>
                         </div>
 
                         <!-- Performance Area -->
                         <div>
-                            <h4 class="flex items-center gap-2 text-[#8B949E] text-[13px] font-bold uppercase tracking-wider mb-5">
-                                <span class="material-symbols-outlined text-[16px]">bar_chart</span> Performance
+                            <h4 class="flex items-center gap-2 text-[#8B949E] text-[12px] font-bold uppercase tracking-[0.2em] mb-6">
+                                <span class="material-symbols-outlined text-[18px]">bar_chart</span> Performance
                             </h4>
                             <div class="flex gap-4">
-                                <div class="flex-1 bg-[#010409] border border-[#30363d] rounded-xl flex flex-col items-center justify-center py-5 px-2 hover:border-[#2f81f7]/50 transition-colors">
-                                    <span class="text-2xl font-bold text-[#2f81f7] mb-1">50+</span>
-                                    <span class="text-[10px] text-[#8B949E] font-bold uppercase tracking-wider">Brands</span>
+                                <div class="flex-1 bg-[#161B22] border border-[#30363d] rounded-2xl flex flex-col items-center justify-center py-6 px-2 hover:border-[#2f81f7] transition-all transform hover:-translate-y-1 group">
+                                    <span class="text-3xl font-bold text-white mb-1 group-hover:text-[#2f81f7] transition-colors">50+</span>
+                                    <span class="text-[10px] text-[#8B949E] font-bold uppercase tracking-widest">Brands</span>
                                 </div>
-                                <div class="flex-1 bg-[#010409] border border-[#30363d] rounded-xl flex flex-col items-center justify-center py-5 px-2 hover:border-[#238636]/50 transition-colors">
-                                    <span class="text-2xl font-bold text-[#238636] mb-1">3.8x</span>
-                                    <span class="text-[10px] text-[#8B949E] font-bold uppercase tracking-wider">Avg ROAS</span>
+                                <div class="flex-1 bg-[#161B22] border border-[#30363d] rounded-2xl flex flex-col items-center justify-center py-6 px-2 hover:border-[#238636] transition-all transform hover:-translate-y-1 group">
+                                    <span class="text-3xl font-bold text-white mb-1 group-hover:text-[#238636] transition-colors">3.8x</span>
+                                    <span class="text-[10px] text-[#8B949E] font-bold uppercase tracking-widest">Avg ROAS</span>
                                 </div>
                             </div>
                         </div>
@@ -133,14 +142,14 @@
                 </div>
 
                 <!-- Bottom Bar -->
-                <div class="px-6 py-4 border-t border-[#30363d] bg-[#161B22] flex items-center justify-between">
-                    <div class="flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-[#238636] animate-pulse"></span>
-                        <span class="text-[#238636] text-[11px] font-semibold uppercase tracking-widest">Status: Optimization Active ⚡</span>
+                <div class="px-8 py-5 border-t border-[#30363d] bg-[#161B22]/80 flex items-center justify-between glass">
+                    <div class="flex items-center gap-3">
+                        <span class="w-2.5 h-2.5 rounded-full bg-[#238636] status-pulse shadow-[0_0_8px_#238636]"></span>
+                        <span class="text-[#238636] text-[11px] font-bold uppercase tracking-[0.2em]">System: Optimization Active ⚡</span>
                     </div>
                     
                     <div class="font-mono text-[13px] hidden sm:block">
-                        <span class="text-[#a371f7]">max</span> <span class="text-[#8B949E]">(</span> <span class="text-[#2f81f7]">ROAS</span> <span class="text-[#8B949E]">) {</span> <span class="text-[#238636]">scale()</span> <span class="text-[#8B949E]">}</span> <span class="w-2 h-4 bg-[#2f81f7] inline-block align-middle ml-1 animate-pulse"></span>
+                        <span class="text-[#a371f7]">max</span> <span class="text-[#8B949E]">(</span> <span class="text-[#2f81f7]">ROAS</span> <span class="text-[#8B949E]">) {</span> <span class="text-[#238636]">scale()</span> <span class="text-[#8B949E]">}</span> <span class="w-2.5 h-5 bg-[#2f81f7] inline-block align-middle ml-2 animate-pulse rounded-sm"></span>
                     </div>
                 </div>
             </div>

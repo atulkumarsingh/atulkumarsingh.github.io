@@ -12,33 +12,47 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <!-- ═══════════════════════════════════════════════ -->
 <section class="py-20 border-b border-gh-border-dark bg-[#010409]">
     <div class="max-w-4xl mx-auto px-4 sm:px-6">
-        <div class="bg-[#0d1117] border border-gh-border-dark rounded-2xl p-8 md:p-12 shadow-sm reveal">
-            <h2 class="text-3xl font-bold text-gh-fg-dark mb-6 tracking-tight flex items-center gap-3">
-                <span class="material-symbols-outlined text-gh-accent text-3xl">badge</span>
+        <div class="bg-[#0d1117] border border-gh-border-dark rounded-3xl p-8 md:p-14 shadow-2xl relative overflow-hidden reveal group">
+            <div class="absolute -top-24 -right-24 w-48 h-48 bg-gh-accent/10 rounded-full blur-3xl transition-all group-hover:bg-gh-accent/20"></div>
+            
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 tracking-tight flex items-center gap-4">
+                <span class="material-symbols-outlined text-gh-accent text-4xl">badge</span>
                 About Me 👋
             </h2>
-            <div class="space-y-6 text-[16px] md:text-[18px] text-gh-muted-dark leading-relaxed font-medium">
-                <p>I’m a performance marketer focused on building complete revenue systems, not just running ads.</p>
+            
+            <div class="space-y-8 text-[17px] md:text-[19px] text-[#8b949e] leading-relaxed font-medium relative z-10">
+                <p>I’m a <span class="text-white">performance marketer</span> focused on building complete revenue systems, not just running isolated ad campaigns.</p>
                 
-                <p>I combine:</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-2">
-                    <div class="flex items-center gap-3 bg-[#010409] border border-gh-border-dark rounded-xl p-4">
-                        <span class="material-symbols-outlined text-gh-accent">ads_click</span>
-                        <span class="font-bold text-gh-fg-dark">Paid Ads <br><span class="text-[12px] font-normal text-gh-muted-dark">(Google + Meta)</span></span>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pb-2">
+                    <div class="flex flex-col gap-4 bg-[#010409] border border-[#30363d] rounded-2xl p-6 hover:border-gh-accent/50 transition-all hover:-translate-y-1">
+                        <span class="material-symbols-outlined text-gh-accent text-3xl">ads_click</span>
+                        <div>
+                            <span class="font-bold text-white block mb-1">Paid Ads</span>
+                            <span class="text-[13px] font-bold text-[#8b949e] uppercase tracking-wider">(Google + Meta)</span>
+                        </div>
                     </div>
-                    <div class="flex items-center gap-3 bg-[#010409] border border-gh-border-dark rounded-xl p-4">
-                        <span class="material-symbols-outlined text-gh-green">analytics</span>
-                        <span class="font-bold text-gh-fg-dark">Tracking <br><span class="text-[12px] font-normal text-gh-muted-dark">(GA4 + GTM)</span></span>
+                    <div class="flex flex-col gap-4 bg-[#010409] border border-[#30363d] rounded-2xl p-6 hover:border-gh-green/50 transition-all hover:-translate-y-1">
+                        <span class="material-symbols-outlined text-gh-green text-3xl">analytics</span>
+                        <div>
+                            <span class="font-bold text-white block mb-1">Tracking</span>
+                            <span class="text-[13px] font-bold text-[#8b949e] uppercase tracking-wider">(GA4 + GTM)</span>
+                        </div>
                     </div>
-                    <div class="flex items-center gap-3 bg-[#010409] border border-gh-border-dark rounded-xl p-4">
-                        <span class="material-symbols-outlined text-gh-orange">hub</span>
-                        <span class="font-bold text-gh-fg-dark">CRM Automation <br><span class="text-[12px] font-normal text-gh-muted-dark">(Zoho)</span></span>
+                    <div class="flex flex-col gap-4 bg-[#010409] border border-[#30363d] rounded-2xl p-6 hover:border-gh-orange/50 transition-all hover:-translate-y-1">
+                        <span class="material-symbols-outlined text-gh-orange text-3xl">hub</span>
+                        <div>
+                            <span class="font-bold text-white block mb-1">CRM Automation</span>
+                            <span class="text-[13px] font-bold text-[#8b949e] uppercase tracking-wider">(Zoho CRM)</span>
+                        </div>
                     </div>
                 </div>
 
-                <p>...to help businesses generate, track, and convert leads efficiently.</p>
-                <div class="pt-4 border-t border-gh-border-dark/50">
-                    <p class="text-[19px] text-gh-fg-dark font-bold">My focus is simple: <span class="text-gh-accent">profitable growth, not vanity metrics.</span></p>
+                <p>I help businesses <span class="text-white">generate, track, and convert</span> leads by engineering the entire conversion ecosystem from click to customer.</p>
+                
+                <div class="pt-8 border-t border-[#30363d]">
+                    <p class="text-[20px] md:text-[22px] text-white font-bold leading-tight">
+                        My focus is simple: <span class="gradient-text italic">profitable growth, not vanity metrics.</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -57,46 +71,54 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Paid Acquisition -->
-            <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent/40 transition-all reveal">
-                <span class="material-symbols-outlined text-3xl text-gh-accent mb-4 block">campaign</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Paid Acquisition</h3>
-                <ul class="space-y-3 text-[14px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-start"><span class="text-gh-accent">▹</span> Google Ads (Search, PMax, YouTube)</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-accent">▹</span> Meta Ads (Facebook & Instagram)</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-accent">▹</span> Lead generation & scaling</li>
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-accent hover:shadow-[0_0_20px_rgba(47,129,247,0.15)] transition-all duration-300 reveal group">
+                <div class="w-14 h-14 bg-gh-accent/10 rounded-xl flex items-center justify-center mb-6 border border-gh-accent/20 group-hover:bg-gh-accent/20 transition-all">
+                    <span class="material-symbols-outlined text-3xl text-gh-accent">campaign</span>
+                </div>
+                <h3 class="text-[18px] font-bold text-white mb-4">Paid Acquisition</h3>
+                <ul class="space-y-3 text-[14px] text-[#8b949e] font-medium">
+                    <li class="flex gap-2 items-start"><span class="text-gh-accent font-bold">▹</span> Google Ads (Search, PMax, YT)</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-accent font-bold">▹</span> Meta (FB & Instagram)</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-accent font-bold">▹</span> Lead Gen & Scaling</li>
                 </ul>
             </div>
 
             <!-- Analytics & Tracking -->
-            <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-all reveal">
-                <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">query_stats</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Analytics & Tracking</h3>
-                <ul class="space-y-3 text-[14px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-start"><span class="text-gh-green">▹</span> GA4 setup & reporting</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-green">▹</span> GTM implementation</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-green">▹</span> Conversion tracking & attribution</li>
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-green hover:shadow-[0_0_20px_rgba(35,134,54,0.15)] transition-all duration-300 reveal group">
+                <div class="w-14 h-14 bg-gh-green/10 rounded-xl flex items-center justify-center mb-6 border border-gh-green/20 group-hover:bg-gh-green/20 transition-all">
+                    <span class="material-symbols-outlined text-3xl text-gh-green">query_stats</span>
+                </div>
+                <h3 class="text-[18px] font-bold text-white mb-4">Analytics & Tracking</h3>
+                <ul class="space-y-3 text-[14px] text-[#8b949e] font-medium">
+                    <li class="flex gap-2 items-start"><span class="text-gh-green font-bold">▹</span> GA4 Setup & Reporting</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-green font-bold">▹</span> GTM Implementation</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-green font-bold">▹</span> Server-side Tracking</li>
                 </ul>
             </div>
 
             <!-- CRM & Automation -->
-            <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-all reveal">
-                <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">account_tree</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">CRM & Automation</h3>
-                <ul class="space-y-3 text-[14px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-start"><span class="text-gh-yellow">▹</span> Zoho CRM setup</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-yellow">▹</span> WhatsApp, Email & SMS automation</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-yellow">▹</span> Lead nurturing systems</li>
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-orange hover:shadow-[0_0_20px_rgba(210,153,34,0.15)] transition-all duration-300 reveal group">
+                <div class="w-14 h-14 bg-gh-orange/10 rounded-xl flex items-center justify-center mb-6 border border-gh-orange/20 group-hover:bg-gh-orange/20 transition-all">
+                    <span class="material-symbols-outlined text-3xl text-gh-orange">account_tree</span>
+                </div>
+                <h3 class="text-[18px] font-bold text-white mb-4">CRM & Automation</h3>
+                <ul class="space-y-3 text-[14px] text-[#8b949e] font-medium">
+                    <li class="flex gap-2 items-start"><span class="text-gh-orange font-bold">▹</span> Zoho CRM Setup</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-orange font-bold">▹</span> Marketing Workflows</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-orange font-bold">▹</span> Lead Nurturing Systems</li>
                 </ul>
             </div>
 
             <!-- Funnel Systems -->
-            <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-red/40 transition-all reveal">
-                <span class="material-symbols-outlined text-3xl text-gh-red mb-4 block">filter_alt</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Funnel Systems</h3>
-                <ul class="space-y-3 text-[14px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-start"><span class="text-gh-red">▹</span> Landing pages</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-red">▹</span> Lead capture optimization</li>
-                    <li class="flex gap-2 items-start"><span class="text-gh-red">▹</span> Conversion rate improvement</li>
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-red hover:shadow-[0_0_20px_rgba(248,81,73,0.15)] transition-all duration-300 reveal group">
+                <div class="w-14 h-14 bg-gh-red/10 rounded-xl flex items-center justify-center mb-6 border border-gh-red/20 group-hover:bg-gh-red/20 transition-all">
+                    <span class="material-symbols-outlined text-3xl text-gh-red">filter_alt</span>
+                </div>
+                <h3 class="text-[18px] font-bold text-white mb-4">Funnel Systems</h3>
+                <ul class="space-y-3 text-[14px] text-[#8b949e] font-medium">
+                    <li class="flex gap-2 items-start"><span class="text-gh-red font-bold">▹</span> Landing Page Design</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-red font-bold">▹</span> Conversion Audit</li>
+                    <li class="flex gap-2 items-start"><span class="text-gh-red font-bold">▹</span> UX Optimization</li>
                 </ul>
             </div>
         </div>
@@ -194,29 +216,29 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
             <p class="text-[16px] md:text-lg text-gh-accent max-w-xl mx-auto font-semibold">Real performance, not vanity metrics.</p>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-6 md:p-8 text-center hover:border-gh-green transition-colors reveal">
-                <span class="material-symbols-outlined text-4xl text-gh-green mb-4">trending_up</span>
-                <h3 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-2">3.8x</h3>
-                <p class="text-[12px] md:text-[14px] text-gh-muted-dark font-bold uppercase tracking-wide">Achieved Up To ROAS</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-[#010409]/50 glass border border-[#30363d] rounded-2xl p-8 md:p-10 text-center hover:border-gh-green hover:shadow-[0_0_20px_rgba(35,134,54,0.1)] transition-all reveal group">
+                <span class="material-symbols-outlined text-4xl text-gh-green mb-5 group-hover:scale-110 transition-transform">trending_up</span>
+                <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-2">3.8x</h3>
+                <p class="text-[11px] text-[#8b949e] font-bold uppercase tracking-[0.2em]">Achieved Max ROAS</p>
             </div>
             
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-6 md:p-8 text-center hover:border-gh-accent transition-colors reveal">
-                <span class="material-symbols-outlined text-4xl text-gh-accent mb-4">trending_down</span>
-                <h3 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-2">40%</h3>
-                <p class="text-[12px] md:text-[14px] text-gh-muted-dark font-bold uppercase tracking-wide">Reduced CPA By Up To</p>
+            <div class="bg-[#010409]/50 glass border border-[#30363d] rounded-2xl p-8 md:p-10 text-center hover:border-gh-accent hover:shadow-[0_0_20px_rgba(47,129,247,0.1)] transition-all reveal group">
+                <span class="material-symbols-outlined text-4xl text-gh-accent mb-5 group-hover:scale-110 transition-transform">trending_down</span>
+                <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-2">40%</h3>
+                <p class="text-[11px] text-[#8b949e] font-bold uppercase tracking-[0.2em]">Reduced Setup CPA</p>
             </div>
             
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-6 md:p-8 text-center hover:border-gh-yellow transition-colors reveal">
-                <span class="material-symbols-outlined text-4xl text-gh-yellow mb-4">domain</span>
-                <h3 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-2">50+</h3>
-                <p class="text-[12px] md:text-[14px] text-gh-muted-dark font-bold uppercase tracking-wide">Brands Worked With</p>
+            <div class="bg-[#010409]/50 glass border border-[#30363d] rounded-2xl p-8 md:p-10 text-center hover:border-gh-yellow hover:shadow-[0_0_20px_rgba(210,153,34,0.1)] transition-all reveal group">
+                <span class="material-symbols-outlined text-4xl text-gh-yellow mb-5 group-hover:scale-110 transition-transform">domain</span>
+                <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-2">50+</h3>
+                <p class="text-[11px] text-[#8b949e] font-bold uppercase tracking-[0.2em]">Partner Brands</p>
             </div>
             
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-6 md:p-8 text-center hover:border-gh-purple transition-colors reveal">
-                <span class="material-symbols-outlined text-4xl text-gh-purple mb-4">account_tree</span>
-                <h3 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-2">100%</h3>
-                <p class="text-[12px] md:text-[14px] text-gh-muted-dark font-bold uppercase tracking-wide">Complete Revenue Systems</p>
+            <div class="bg-[#010409]/50 glass border border-[#30363d] rounded-2xl p-8 md:p-10 text-center hover:border-gh-purple hover:shadow-[0_0_20px_rgba(163,113,247,0.1)] transition-all reveal group">
+                <span class="material-symbols-outlined text-4xl text-gh-purple mb-5 group-hover:scale-110 transition-transform">account_tree</span>
+                <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-2">100%</h3>
+                <p class="text-[11px] text-[#8b949e] font-bold uppercase tracking-[0.2em]">Revenue Architect</p>
             </div>
         </div>
     </div>
@@ -254,38 +276,38 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
         <div class="grid md:grid-cols-3 gap-8 mb-12">
             
             <!-- Work Item 1 -->
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-8 hover:-translate-y-2 transition-transform duration-300 reveal group">
-                <div class="w-12 h-12 rounded-lg bg-[#161b22] border border-gh-border-dark flex items-center justify-center mb-6 text-gh-accent group-hover:bg-gh-accent group-hover:text-white transition-colors">
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-accent hover:shadow-[0_0_30px_rgba(47,129,247,0.1)] hover:-translate-y-2 transition-all duration-300 reveal group">
+                <div class="w-14 h-14 rounded-xl bg-[#010409] border border-[#30363d] flex items-center justify-center mb-8 text-gh-accent group-hover:bg-gh-accent group-hover:text-white transition-all shadow-inner">
                     <i class="fa-brands fa-google text-2xl"></i>
                 </div>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Google Ads</h3>
-                <ul class="space-y-3 text-[15px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-center"><span class="material-symbols-outlined text-[16px] text-gh-accent">check</span> Lead generation campaigns</li>
-                    <li class="flex gap-2 items-center"><span class="material-symbols-outlined text-[16px] text-gh-accent">check</span> ROAS optimization</li>
+                <h3 class="text-[18px] font-bold text-white mb-5 transition-colors group-hover:text-gh-accent">Google Ads</h3>
+                <ul class="space-y-4 text-[15px] text-[#8b949e] font-medium leading-relaxed">
+                    <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-[18px] text-gh-accent">check_circle</span> Lead Gen Campaigns</li>
+                    <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-[18px] text-gh-accent">check_circle</span> ROAS Optimization</li>
                 </ul>
             </div>
 
             <!-- Work Item 2 -->
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-8 hover:-translate-y-2 transition-transform duration-300 reveal group reveal-delay-1">
-                <div class="w-12 h-12 rounded-lg bg-[#161b22] border border-gh-border-dark flex items-center justify-center mb-6 text-gh-green group-hover:bg-gh-green group-hover:text-white transition-colors">
-                    <span class="material-symbols-outlined text-2xl">troubleshoot</span>
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-green hover:shadow-[0_0_30px_rgba(35,134,54,0.1)] hover:-translate-y-2 transition-all duration-300 reveal group">
+                <div class="w-14 h-14 rounded-xl bg-[#010409] border border-[#30363d] flex items-center justify-center mb-8 text-gh-green group-hover:bg-gh-green group-hover:text-white transition-all shadow-inner">
+                    <span class="material-symbols-outlined text-2xl">analytics</span>
                 </div>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">GA4 + GTM</h3>
-                <ul class="space-y-3 text-[15px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-center"><span class="material-symbols-outlined text-[16px] text-gh-green">check</span> Tracking systems</li>
-                    <li class="flex gap-2 items-center"><span class="material-symbols-outlined text-[16px] text-gh-green">check</span> Attribution fixes</li>
+                <h3 class="text-[18px] font-bold text-white mb-5 transition-colors group-hover:text-gh-green">GA4 + GTM</h3>
+                <ul class="space-y-4 text-[15px] text-[#8b949e] font-medium leading-relaxed">
+                    <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-[18px] text-gh-green">check_circle</span> Tracking Architecture</li>
+                    <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-[18px] text-gh-green">check_circle</span> Attribution Frameworks</li>
                 </ul>
             </div>
 
             <!-- Work Item 3 -->
-            <div class="bg-[#010409] border border-gh-border-dark rounded-xl p-8 hover:-translate-y-2 transition-transform duration-300 reveal group reveal-delay-2">
-                <div class="w-12 h-12 rounded-lg bg-[#161b22] border border-gh-border-dark flex items-center justify-center mb-6 text-gh-yellow group-hover:bg-gh-yellow group-hover:text-white transition-colors">
+            <div class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl p-8 hover:border-gh-yellow hover:shadow-[0_0_30px_rgba(210,153,34,0.1)] hover:-translate-y-2 transition-all duration-300 reveal group">
+                <div class="w-14 h-14 rounded-xl bg-[#010409] border border-[#30363d] flex items-center justify-center mb-8 text-gh-yellow group-hover:bg-gh-yellow group-hover:text-white transition-all shadow-inner">
                     <span class="material-symbols-outlined text-2xl">dynamic_feed</span>
                 </div>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Zoho CRM</h3>
-                <ul class="space-y-3 text-[15px] text-gh-muted-dark font-medium">
-                    <li class="flex gap-2 items-center"><span class="material-symbols-outlined text-[16px] text-gh-yellow">check</span> Automation workflows</li>
-                    <li class="flex gap-2 items-center"><span class="material-symbols-outlined text-[16px] text-gh-yellow">check</span> Lead conversion systems</li>
+                <h3 class="text-[18px] font-bold text-white mb-5 transition-colors group-hover:text-gh-yellow">Zoho CRM</h3>
+                <ul class="space-y-4 text-[15px] text-[#8b949e] font-medium leading-relaxed">
+                    <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-[18px] text-gh-yellow">check_circle</span> Marketing Automation</li>
+                    <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-[18px] text-gh-yellow">check_circle</span> Sales Pipelines</li>
                 </ul>
             </div>
 
@@ -316,17 +338,19 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
             </a>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 reveal">
             {% for post in site.posts limit:3 %}
-                <article class="bg-[#0d1117] border border-gh-border-dark rounded-xl overflow-hidden hover:border-gh-accent/40 transition-all flex flex-col h-full hover:shadow-sm group">
-                    <div class="p-8 flex-grow flex flex-col">
-                        <span class="text-[12px] font-mono text-gh-muted-dark mx-0 mb-3 block">{{ post.date | date: "%b %d, %Y" }}</span>
-                        <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4 group-hover:text-gh-accent transition-colors">
+                <article class="bg-[#161b22]/50 glass border border-[#30363d] rounded-2xl overflow-hidden hover:border-gh-accent/60 transition-all duration-300 flex flex-col h-full hover:shadow-[0_0_30px_rgba(47,129,247,0.1)] group">
+                    <div class="p-10 flex-grow flex flex-col">
+                        <div class="flex items-center gap-3 mb-6">
+                            <span class="text-[11px] font-bold text-[#8b949e] uppercase tracking-[0.2em] px-3 py-1 bg-[#010409] rounded-full border border-[#30363d]">{{ post.date | date: "%b %d, %Y" }}</span>
+                        </div>
+                        <h3 class="text-[19px] font-bold text-white mb-6 group-hover:text-gh-accent transition-colors leading-snug">
                             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                         </h3>
                         <div class="mt-auto">
-                            <a href="{{ post.url | relative_url }}" class="inline-flex items-center gap-1.5 text-sm font-semibold text-gh-fg-dark group-hover:text-gh-accent transition-colors">
-                                Read Article <span class="material-symbols-outlined text-[15px] group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+                            <a href="{{ post.url | relative_url }}" class="inline-flex items-center gap-2 text-sm font-bold text-gh-fg-dark group-hover:text-gh-accent transition-colors uppercase tracking-[0.1em]">
+                                Full Case Study <span class="material-symbols-outlined text-[18px] group-hover:translate-x-2 transition-transform">arrow_right_alt</span>
                             </a>
                         </div>
                     </div>
