@@ -15,12 +15,12 @@ keywords: marketing and sales automation, scalable growth systems, ad tracking a
             Stop Buying Random Tactics 👋 Build a <span class="text-gh-yellow">Complete</span> Revenue System 🏗️
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
             I connect the dots between your Ads, Tracking, and CRM to create a single, unified machine designed to capture traffic, measure intent, and automate conversions at scale.
         </p>
 
         <!-- Key Points -->
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[15px] font-semibold text-gh-fg-dark">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[16px] font-semibold text-gh-fg-dark">
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-yellow text-[18px]">check_circle</span> Multi-Channel Traffic Generation</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-yellow text-[18px]">check_circle</span> Bulletproof Data Architecture</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-yellow text-[18px]">check_circle</span> Automated CRM Pipelines</span>

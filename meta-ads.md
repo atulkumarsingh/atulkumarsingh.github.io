@@ -13,12 +13,12 @@ title: Meta Ads Management | Atul Kumar
             Stop Guessing 👋 <span class="text-gh-purple">Scale Profitably</span> on Meta Ads with Creative Velocity 🚀
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
             I build creative-first Facebook and Instagram ad systems powered by resilient tracking and data-driven testing — escaping ad fatigue and skyrocketing ROAS.
         </p>
 
         <!-- Key Points -->
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[15px] font-semibold text-gh-fg-dark">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[16px] font-semibold text-gh-fg-dark">
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-purple text-[18px]">check_circle</span> Creative Testing Infrastructure</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-purple text-[18px]">check_circle</span> Conversion API (CAPI) Integration</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-purple text-[18px]">check_circle</span> Broad Audience Scaling</span>
@@ -152,7 +152,7 @@ title: Meta Ads Management | Atul Kumar
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-purple/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-purple mb-4 block">smart_button</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Ad Account Architecture</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Ad Account Architecture</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Campaign consolidation</li>
                     <li>• Advantage+ Shopping integrations</li>
@@ -162,7 +162,7 @@ title: Meta Ads Management | Atul Kumar
             
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-purple/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-purple mb-4 block">video_camera_back</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Creative Direction</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Creative Direction</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Hook & angle brainstorming</li>
                     <li>• Scripting for UGC/founders</li>
@@ -172,7 +172,7 @@ title: Meta Ads Management | Atul Kumar
 
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-purple/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-purple mb-4 block">science</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Relentless Testing</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Relentless Testing</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Dynamic Creative Optimization (DCO)</li>
                     <li>• Headline & primary text testing</li>
@@ -182,7 +182,7 @@ title: Meta Ads Management | Atul Kumar
 
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">sync_saved_locally</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Conversions API (CAPI)</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Conversions API (CAPI)</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Meta pixel repair</li>
                     <li>• Server-side tracking (GTM setup)</li>
@@ -192,7 +192,7 @@ title: Meta Ads Management | Atul Kumar
 
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">query_stats</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Budget Scaling Strategy</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Budget Scaling Strategy</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Horizontal scaling (Dupes)</li>
                     <li>• Vertical scaling (Budget control)</li>
@@ -202,7 +202,7 @@ title: Meta Ads Management | Atul Kumar
 
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-accent mb-4 block">hub</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Funnel Synergy</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Funnel Synergy</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Landing page copy bridging</li>
                     <li>• Offer positioning</li>

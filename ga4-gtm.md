@@ -15,12 +15,12 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             Fix Your Tracking & Attribution 📊 — Know What’s <span class="text-gh-green">Actually Driving Revenue</span>
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
             I implement structured GA4 + GTM tracking systems that give you accurate data, clear attribution, and confidence to scale your marketing.
         </p>
 
         <!-- Key Points -->
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[15px] font-semibold text-gh-fg-dark">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[16px] font-semibold text-gh-fg-dark">
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-green text-[18px]">check_circle</span> Track Real User Behavior</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-green text-[18px]">check_circle</span> Fix Missing Conversions</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-green text-[18px]">check_circle</span> Align GA4, GTM, Ads & CRM</span>
@@ -155,7 +155,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             <!-- Tracking Audit & Debugging -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">troubleshoot</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Audit & Debugging</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Audit & Debugging</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• GA4 & GTM audit</li>
                     <li>• Missing / duplicate events</li>
@@ -167,7 +167,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             <!-- GA4 Setup & Configuration -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">analytics</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">GA4 Config Setup</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">GA4 Config Setup</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Property setup</li>
                     <li>• Event tracking framework</li>
@@ -179,7 +179,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             <!-- GTM Implementation -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">code_blocks</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">GTM Implementation</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">GTM Implementation</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Tag, trigger, variable setup</li>
                     <li>• Data layer implementation</li>
@@ -190,7 +190,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             <!-- Event & Conversion Tracking -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">ads_click</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Event Tracking</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Event Tracking</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Form submissions</li>
                     <li>• Button clicks & Leads</li>
@@ -201,7 +201,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             <!-- Multi-Platform Tracking -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">hub</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Multi-Platform Tracking</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Multi-Platform Tracking</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Google Ads conversions</li>
                     <li>• Meta Pixel + CAPI</li>
@@ -212,7 +212,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             <!-- Reporting & Dashboards -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-green/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-green mb-4 block">dashboard</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Reporting & Dashboards</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Reporting & Dashboards</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Looker Studio dashboards</li>
                     <li>• Funnel reports</li>
@@ -291,7 +291,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             </div>
 
             <div class="mt-8 text-center pt-8 border-t border-gh-border-dark">
-                <p class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark">Tools don’t fail. <span class="text-gh-green">Implementation does.</span></p>
+                <p class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark">Tools don’t fail. <span class="text-gh-green">Implementation does.</span></p>
             </div>
         </div>
     </div>
@@ -507,7 +507,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
 
         <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-[#0d1117] border border-gh-border-dark rounded-2xl p-8 opacity-70 reveal">
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-muted-dark mb-6 border-b border-gh-border-dark pb-4">Others:</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-muted-dark mb-6 border-b border-gh-border-dark pb-4">Others:</h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-gh-muted-dark font-medium"><span class="text-gh-border-dark">✖</span> Just install GA4</li>
                     <li class="flex items-center gap-3 text-gh-muted-dark font-medium"><span class="text-gh-border-dark">✖</span> Basic GTM setup</li>
@@ -516,7 +516,7 @@ keywords: GA4 expert India, Google Tag Manager consultant, conversion tracking s
             </div>
             
             <div class="bg-[#161b22] border border-gh-green/30 rounded-2xl p-8 shadow-sm shadow-gh-green/5 reveal reveal-delay-1">
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-green mb-6 border-b border-gh-border-dark pb-4">Me:</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-green mb-6 border-b border-gh-border-dark pb-4">Me:</h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-gh-fg-dark font-bold"><span class="material-symbols-outlined text-[18px] text-gh-green">check_circle</span> Business-focused tracking</li>
                     <li class="flex items-center gap-3 text-gh-fg-dark font-bold"><span class="material-symbols-outlined text-[18px] text-gh-green">check_circle</span> Funnel-based event design</li>

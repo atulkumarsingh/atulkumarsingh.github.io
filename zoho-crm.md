@@ -15,12 +15,12 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             Turn Your Leads Into Customers 🤝 — <span class="text-gh-yellow">Automatically</span> with Zoho CRM
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
             I build marketing-focused Zoho CRM systems that capture, nurture, and convert leads through automation — so no opportunity is lost.
         </p>
 
         <!-- Key Points -->
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[15px] font-semibold text-gh-fg-dark">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[16px] font-semibold text-gh-fg-dark">
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-yellow text-[18px]">check_circle</span> Capture from Ads, Site & Forms</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-yellow text-[18px]">check_circle</span> Automate WhatsApp, Email & SMS</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-yellow text-[18px]">check_circle</span> Track Click to Conversion</span>
@@ -163,7 +163,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             <!-- Lead Capture -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">input</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Lead Capture System</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Lead Capture System</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Website forms & landing pages</li>
                     <li>• Google Ads & Meta Ads integration</li>
@@ -174,7 +174,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             <!-- CRM Pipeline -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">view_kanban</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">CRM Pipeline Setup</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">CRM Pipeline Setup</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Custom deal stages</li>
                     <li>• Lead qualification system</li>
@@ -186,7 +186,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             <!-- Automation Workflows -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">smart_toy</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Automation Workflows</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Automation Workflows</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• WhatsApp automation</li>
                     <li>• Email sequences</li>
@@ -198,7 +198,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             <!-- Lead Nurturing System -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">energy_savings_leaf</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Lead Nurturing System</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Lead Nurturing System</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Multi-step follow-ups</li>
                     <li>• Behavior-based triggers</li>
@@ -209,7 +209,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             <!-- Conversion Tracking -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">track_changes</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Conversion Tracking</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Conversion Tracking</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Lead source tracking</li>
                     <li>• Campaign attribution</li>
@@ -220,7 +220,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             <!-- Reporting & Insights -->
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-yellow/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-yellow mb-4 block">insights</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Reporting & Insights</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark mb-4">Reporting & Insights</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Funnel performance reports</li>
                     <li>• Sales tracking dashboards</li>
@@ -325,7 +325,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             </div>
 
             <div class="mt-8 text-center pt-8 border-t border-gh-border-dark">
-                <p class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark">CRM is not a tool — <span class="text-gh-yellow">it’s a system.</span></p>
+                <p class="text-[16px] md:text-[18px] font-bold text-gh-fg-dark">CRM is not a tool — <span class="text-gh-yellow">it’s a system.</span></p>
             </div>
         </div>
     </div>
@@ -539,7 +539,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
 
         <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-[#0d1117] border border-gh-border-dark rounded-2xl p-8 opacity-70 reveal">
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-muted-dark mb-6 border-b border-gh-border-dark pb-4">Others:</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-muted-dark mb-6 border-b border-gh-border-dark pb-4">Others:</h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-gh-muted-dark font-medium"><span class="text-gh-border-dark">✖</span> Basic CRM setup</li>
                     <li class="flex items-center gap-3 text-gh-muted-dark font-medium"><span class="text-gh-border-dark">✖</span> No marketing integration</li>
@@ -548,7 +548,7 @@ keywords: Zoho CRM setup India, CRM automation expert, sales pipeline automation
             </div>
             
             <div class="bg-[#161b22] border border-gh-yellow/30 rounded-2xl p-8 shadow-sm shadow-gh-yellow/5 reveal reveal-delay-1">
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-yellow mb-6 border-b border-gh-border-dark pb-4">Me:</h3>
+                <h3 class="text-[16px] md:text-[18px] font-bold text-gh-yellow mb-6 border-b border-gh-border-dark pb-4">Me:</h3>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-3 text-gh-fg-dark font-bold"><span class="material-symbols-outlined text-[18px] text-gh-yellow">check_circle</span> Marketing + CRM integration</li>
                     <li class="flex items-center gap-3 text-gh-fg-dark font-bold"><span class="material-symbols-outlined text-[18px] text-gh-yellow">check_circle</span> Funnel-based thinking</li>

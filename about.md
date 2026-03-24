@@ -18,7 +18,7 @@ title: About Me | Atul Kumar
             Hi, I'm <span class="text-white">Atul Kumar</span>
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
             I’m a performance marketer focused on building complete revenue systems, not just running ads. I combine Paid Ads, Server-Side Tracking, and CRM Automation to help businesses generate, track, and convert leads efficiently.
         </p>
 

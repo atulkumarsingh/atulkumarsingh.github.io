@@ -15,12 +15,12 @@ keywords: Google Ads expert India, PPC consultant, lead generation Google Ads, R
             Get High-Quality Leads with Google Ads 🎯 — <span class="text-gh-accent">Without Wasting Budget</span>
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
             I build intent-driven Google Ads systems with proper tracking, optimized campaigns, and conversion-focused funnels — so you get real leads, not just clicks.
         </p>
 
         <!-- Key Points -->
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[15px] font-semibold text-gh-fg-dark">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-[16px] font-semibold text-gh-fg-dark">
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-green text-[18px]">check_circle</span> Search + PMax Campaigns</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-green text-[18px]">check_circle</span> Qualified Leads > Traffic</span>
             <span class="flex items-center gap-2"><span class="material-symbols-outlined text-gh-green text-[18px]">check_circle</span> GA4 + GTM Tracking</span>
@@ -80,7 +80,7 @@ keywords: Google Ads expert India, PPC consultant, lead generation Google Ads, R
                     <span class="material-symbols-outlined text-[24px]">warning</span>
                 </div>
                 <h2 class="text-2xl font-bold text-gh-fg-dark mb-4 tracking-tight">Why Your Google Ads Are Not Delivering Results</h2>
-                <p class="text-[16px] text-gh-muted-dark mb-6">You’re running ads… but:</p>
+                <p class="text-[16px] md:text-[17px] text-gh-muted-dark mb-6">You’re running ads… but:</p>
                 
                 <ul class="space-y-4 mb-8">
                     <li class="flex items-start gap-3 text-[16px] text-gh-fg-dark font-medium">
@@ -112,7 +112,7 @@ keywords: Google Ads expert India, PPC consultant, lead generation Google Ads, R
                     <span class="material-symbols-outlined text-[24px]">task_alt</span>
                 </div>
                 <h2 class="text-2xl font-bold text-gh-fg-dark mb-4 tracking-tight">A Complete Google Ads System — Not Just Campaign Setup</h2>
-                <p class="text-[16px] text-gh-muted-dark mb-6">I fix your entire acquisition system:</p>
+                <p class="text-[16px] md:text-[17px] text-gh-muted-dark mb-6">I fix your entire acquisition system:</p>
                 
                 <ul class="space-y-4 mb-8">
                     <li class="flex items-start gap-3 text-[16px] text-gh-fg-dark font-medium">
@@ -158,7 +158,7 @@ keywords: Google Ads expert India, PPC consultant, lead generation Google Ads, R
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-accent mb-4 block">account_tree</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Campaign Structure</h3>
+                <h3 class="text-[16px] md:text-[17px] font-bold text-gh-fg-dark mb-4">Campaign Structure</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Intent-based campaign setup</li>
                     <li>• Smart bidding strategies</li>
@@ -208,7 +208,7 @@ keywords: Google Ads expert India, PPC consultant, lead generation Google Ads, R
 
             <div class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent/40 transition-colors reveal">
                 <span class="material-symbols-outlined text-3xl text-gh-accent mb-4 block">trending_up</span>
-                <h3 class="text-[15px] md:text-[16px] font-bold text-gh-fg-dark mb-4">Continuous Optimization</h3>
+                <h3 class="text-[16px] md:text-[17px] font-bold text-gh-fg-dark mb-4">Continuous Optimization</h3>
                 <ul class="space-y-2 text-[14px] text-gh-muted-dark font-medium">
                     <li>• Weekly testing</li>
                     <li>• Bid adjustments</li>

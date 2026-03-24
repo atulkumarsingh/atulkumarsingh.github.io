@@ -13,7 +13,7 @@ title: Contact | Atul Kumar
             Stop Leaking Revenue. Let's Build Your <span class="text-white">Growth Engine.</span>
         </h1>
         
-        <p class="text-[15px] md:text-[16px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-2xl mx-auto">
+        <p class="text-[16px] md:text-[18px] text-gh-muted-dark font-medium leading-relaxed mb-10 max-w-2xl mx-auto">
             Ready to upgrade your acquisition, fix your broken tracking, or automate your lead flow? The best way to start is by booking a brief discovery call.
         </p>
     </div>

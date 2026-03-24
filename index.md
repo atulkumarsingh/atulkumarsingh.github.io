@@ -20,7 +20,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
                 About Me 👋
             </h2>
             
-            <div class="space-y-6 text-[17px] md:text-[19px] text-[#8b949e] leading-relaxed font-medium relative z-10">
+            <div class="space-y-6 text-[16px] md:text-[18px] text-[#8b949e] leading-relaxed font-medium relative z-10">
                 <p>I’m a <span class="text-white">performance marketer</span> focused on building complete revenue systems, not just running isolated ad campaigns.</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pb-2">
@@ -50,7 +50,7 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
                 <p>I help businesses <span class="text-white">generate, track, and convert</span> leads by engineering the entire conversion ecosystem from click to customer.</p>
                 
                 <div class="pt-6 border-t border-[#30363d]">
-                    <p class="text-[19px] md:text-[21px] text-white font-bold leading-tight">
+                    <p class="text-[18px] md:text-[20px] text-white font-bold leading-tight">
                         My focus is simple: <span class="gradient-text italic">profitable growth, not vanity metrics.</span>
                     </p>
                 </div>
