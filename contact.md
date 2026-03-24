@@ -46,8 +46,8 @@ title: Contact | Atul Kumar
                     Prefer to write out your project requirements? Send me an email and I'll get back to you within 24 hours.
                 </p>
                 <!-- Update with actual Email later if needed, currently falls back to a generic mailto -->
-                <a href="mailto:hello@kumaratul.com" class="inline-flex items-center gap-2 px-4 py-2 text-[14px] bg-[#161b22] hover:bg-gh-border-dark text-gh-fg-dark font-bold rounded-xl border border-gh-border-dark transition-colors relative z-10 w-full justify-center">
-                    hello@kumaratul.com <span class="material-symbols-outlined text-[18px]">arrow_outward</span>
+                <a href="mailto:connect@kumaratul.com" class="inline-flex items-center gap-2 px-4 py-2 text-[14px] bg-[#161b22] hover:bg-gh-border-dark text-gh-fg-dark font-bold rounded-xl border border-gh-border-dark transition-all relative z-10 w-full justify-center">
+                    connect@kumaratul.com <span class="material-symbols-outlined text-[18px]">arrow_outward</span>
                 </a>
             </div>
 

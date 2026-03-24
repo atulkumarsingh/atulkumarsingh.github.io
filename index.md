@@ -10,17 +10,17 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 <!-- ═══════════════════════════════════════════════ -->
 <!-- 2. ABOUT (RESUME SNAPSHOT) -->
 <!-- ═══════════════════════════════════════════════ -->
-<section class="py-20 border-b border-gh-border-dark bg-[#010409]">
+<section class="py-12 border-b border-gh-border-dark bg-[#010409]">
     <div class="max-w-4xl mx-auto px-4 sm:px-6">
-        <div class="bg-[#0d1117] border border-gh-border-dark rounded-3xl p-8 md:p-14 shadow-2xl relative overflow-hidden reveal group">
+        <div class="bg-[#0d1117] border border-gh-border-dark rounded-3xl p-6 md:p-10 shadow-2xl relative overflow-hidden reveal group">
             <div class="absolute -top-24 -right-24 w-48 h-48 bg-gh-accent/10 rounded-full blur-3xl transition-all group-hover:bg-gh-accent/20"></div>
             
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 tracking-tight flex items-center gap-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight flex items-center gap-4">
                 <span class="material-symbols-outlined text-gh-accent text-4xl">badge</span>
                 About Me 👋
             </h2>
             
-            <div class="space-y-8 text-[17px] md:text-[19px] text-[#8b949e] leading-relaxed font-medium relative z-10">
+            <div class="space-y-6 text-[17px] md:text-[19px] text-[#8b949e] leading-relaxed font-medium relative z-10">
                 <p>I’m a <span class="text-white">performance marketer</span> focused on building complete revenue systems, not just running isolated ad campaigns.</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pb-2">
@@ -49,8 +49,8 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
 
                 <p>I help businesses <span class="text-white">generate, track, and convert</span> leads by engineering the entire conversion ecosystem from click to customer.</p>
                 
-                <div class="pt-8 border-t border-[#30363d]">
-                    <p class="text-[20px] md:text-[22px] text-white font-bold leading-tight">
+                <div class="pt-6 border-t border-[#30363d]">
+                    <p class="text-[19px] md:text-[21px] text-white font-bold leading-tight">
                         My focus is simple: <span class="gradient-text italic">profitable growth, not vanity metrics.</span>
                     </p>
                 </div>
@@ -433,9 +433,9 @@ keywords: performance marketing India, analytics and tracking expert, CRM automa
         <h2 class="text-2xl md:text-3xl font-bold text-gh-fg-dark mb-10 tracking-tight">Let’s Connect</h2>
         
         <div class="grid sm:grid-cols-2 gap-6 mb-12">
-            <a href="mailto:your@email.com" class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent transition-colors flex flex-col items-center gap-3">
+            <a href="mailto:connect@kumaratul.com" class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent transition-colors flex flex-col items-center gap-3">
                 <span class="material-symbols-outlined text-4xl text-gh-muted-dark">mail</span>
-                <span class="font-bold text-gh-fg-dark text-lg">your@email.com</span>
+                <span class="font-bold text-gh-fg-dark text-lg">connect@kumaratul.com</span>
             </a>
             
             <a href="https://linkedin.com/in/yourprofile" target="_blank" class="bg-[#161b22] border border-gh-border-dark rounded-xl p-8 hover:border-gh-accent transition-colors flex flex-col items-center gap-3">
